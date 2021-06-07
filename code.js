@@ -1,0 +1,3687 @@
+//Nintendo Search Code
+
+let gameList = [
+    {
+        title: "Donkey Kong",
+        imageUrl: "games/1983/DonkeyKong.jpg",
+        franchise: "Donkey Kong",
+        console: "NES",
+        releaseYear: "1983"
+    },
+    {
+        title: "Donkey Kong Jr.",
+        imageUrl: "games/1983/DonkeyKongJr.jpg",
+        franchise: "Donkey Kong",
+        console: "NES",
+        releaseYear: "1983"
+    },
+    {
+        title: "Mario Bros.",
+        imageUrl: "games/1983/MarioBros.jpg",
+        franchise: "Super Mario",
+        console: "NES",
+        releaseYear: "1983"
+    },
+    {
+        title: "Clu Clu Land",
+        imageUrl: "games/1984/CluCluLand.jpg",
+        franchise: "Clu Clu Land",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Devil World",
+        imageUrl: "games/1984/DevilWorld.jpg",
+        franchise: "Devil World",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Donkey Kong 3",
+        imageUrl: "games/1984/DonkeyKong3.jpg",
+        franchise: "Donkey Kong",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Duck Hunt",
+        imageUrl: "games/1984/DuckHunt.jpg",
+        franchise: "Duck Hunt",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Excitebike",
+        imageUrl: "games/1984/Excitebike.png",
+        franchise: "Excite",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Hogan's Alley",
+        imageUrl: "games/1984/Hogan'sAlley.jpg",
+        franchise: "Duck Hunt",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Wild Gunman",
+        imageUrl: "games/1984/WildGunman.png",
+        franchise: "Duck Hunt",
+        console: "NES",
+        releaseYear: "1984"
+    },
+    {
+        title: "Balloon Fight",
+        imageUrl: "games/1985/BalloonFight.jpg",
+        franchise: "Balloon Fight",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Gyromite",
+        imageUrl: "games/1985/Gyromite.jpg",
+        franchise: "R.O.B.",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Ice Climber",
+        imageUrl: "games/1985/IceClimber.jpg",
+        franchise: "Ice Climber",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Mach Rider",
+        imageUrl: "games/1985/MachRider.jpg",
+        franchise: "Mach Rider",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Stack-Up",
+        imageUrl: "games/1985/StackUp.jpg",
+        franchise: "R.O.B.",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Super Mario Bros.",
+        imageUrl: "games/1985/SuperMarioBros.jpg",
+        franchise: "Super Mario",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Wrecking Crew",
+        imageUrl: "games/1985/WreckingCrew.jpg",
+        franchise: "Wrecking Crew",
+        console: "NES",
+        releaseYear: "1985"
+    },
+    {
+        title: "Kid Icarus",
+        imageUrl: "games/1986/KidIcarus.jpg",
+        franchise: "Kid Icarus",
+        console: "NES",
+        releaseYear: "1986"
+    },
+    {
+        title: "Metroid",
+        imageUrl: "games/1986/Metroid.jpg",
+        franchise: "Metroid",
+        console: "NES",
+        releaseYear: "1986"
+    },
+    {
+        title: "Super Mario Bros.: The Lost Levels",
+        imageUrl: "games/1986/TheLostLevels.png",
+        franchise: "Super Mario",
+        console: "NES",
+        releaseYear: "1986"
+    },
+    {
+        title: "The Legend of Zelda",
+        imageUrl: "games/1986/TheLegendOfZelda.jpg",
+        franchise: "The Legend of Zelda",
+        console: "NES",
+        releaseYear: "1986"
+    },
+    {
+        title: "The Mysterious Murasame Castle",
+        imageUrl: "games/1986/TheMysteriousMurasameCastle.jpg",
+        franchise: "The Mysterious Murasame Castle",
+        console: "NES",
+        releaseYear: "1986"
+    },
+    {
+        title: "Punch-Out!!",
+        imageUrl: "games/1987/PunchOut.jpg",
+        franchise: "Punch-Out!!",
+        console: "NES",
+        releaseYear: "1987"
+    },
+    {
+        title: "Zelda II: The Adventure of Link",
+        imageUrl: "games/1987/TheAdventureOfLink.jpg",
+        franchise: "The Legend of Zelda",
+        console: "NES",
+        releaseYear: "1987"
+    },
+    {
+        title: "Super Mario Bros. 2",
+        imageUrl: "games/1988/SuperMarioBros2.jpg",
+        franchise: "Super Mario",
+        console: "NES",
+        releaseYear: "1988"
+    },
+    {
+        title: "Super Mario Bros. 3",
+        imageUrl: "games/1988/SuperMarioBros3.jpg",
+        franchise: "Super Mario",
+        console: "NES",
+        releaseYear: "1988"
+    },
+    {
+        title: "EarthBound Beginnings",
+        imageUrl: "games/1989/Mother.png",
+        franchise: "EarthBound",
+        console: "NES",
+        releaseYear: "1989"
+    },
+    {
+        title: "Super Mario Land",
+        imageUrl: "games/1989/SuperMarioLand.png",
+        franchise: "Super Mario",
+        console: "GB",
+        releaseYear: "1989"
+    },
+    {
+        title: "Balloon Kid",
+        imageUrl: "games/1990/Balloon Kid.jpg",
+        franchise: "Balloon Fight",
+        console: "GB",
+        releaseYear: "1990"
+    },
+    {
+        title: "Dr. Mario",
+        imageUrl: "games/1990/Dr. Mario GB.jpg",
+        franchise: "Super Mario",
+        console: "GB",
+        releaseYear: "1990"
+    },
+    {
+        title: "Dr. Mario",
+        imageUrl: "games/1990/Dr. Mario.jpg",
+        franchise: "Super Mario",
+        console: "NES",
+        releaseYear: "1990"
+    },
+    {
+        title: "F-Zero",
+        imageUrl: "games/1990/F-Zero.png",
+        franchise: "F-Zero",
+        console: "SNES",
+        releaseYear: "1990"
+    },
+    {
+        title: "Fire Emblem: Shadow Dragon and the Blade of Light",
+        imageUrl: "games/1990/Shadow Dragon and the Blade of Light.jpg",
+        franchise: "Fire Emblem",
+        console: "NES",
+        releaseYear: "1990"
+    },
+    {
+        title: "Pilotwings",
+        imageUrl: "games/1990/Pilotwings.jpg",
+        franchise: "Pilotwings",
+        console: "SNES",
+        releaseYear: "1990"
+    },
+    {
+        title: "StarTropics",
+        imageUrl: "games/1990/StarTropics.jpg",
+        franchise: "StarTropics",
+        console: "NES",
+        releaseYear: "1990"
+    },
+    {
+        title: "Super Mario World",
+        imageUrl: "games/1990/Super Mario World.jpg",
+        franchise: "Super Mario",
+        console: "SNES",
+        releaseYear: "1990"
+    },
+    {
+        title: "Kid Icarus: Of Myths and Monsters",
+        imageUrl: "games/1991/Of Myths and Monsters.jpg",
+        franchise: "Kid Icarus",
+        console: "GB",
+        releaseYear: "1991"
+    },
+    {
+        title: "Metroid II: Return of Samus",
+        imageUrl: "games/1991/Return of Samus.jpg",
+        franchise: "Metroid",
+        console: "GB",
+        releaseYear: "1991"
+    },
+    {
+        title: "The Legend of Zelda: A Link to the Past",
+        imageUrl: "games/1991/A Link to the Past.jpg",
+        franchise: "The Legend of Zelda",
+        console: "SNES",
+        releaseYear: "1991"
+    },
+    {
+        title: "Yoshi",
+        imageUrl: "games/1991/Yoshi.jpg",
+        franchise: "Yoshi",
+        console: "NES",
+        releaseYear: "1991"
+    },
+    {
+        title: "Fire Emblem Gaiden",
+        imageUrl: "games/1992/Gaiden.jpg",
+        franchise: "Fire Emblem",
+        console: "NES",
+        releaseYear: "1992"
+    },
+    {
+        title: "For the Frog the Bell Tolls",
+        imageUrl: "games/1992/For the Frog the Bell Tolls.png",
+        franchise: "For the Frog the Bell Tolls",
+        console: "GB",
+        releaseYear: "1992"
+    },
+    {
+        title: "Kirby's Dream Land",
+        imageUrl: "games/1992/Kirby's Dream Land.jpg",
+        franchise: "Kirby",
+        console: "GB",
+        releaseYear: "1992"
+    },
+    {
+        title: "Mario Paint",
+        imageUrl: "games/1992/Mario Paint.jpg",
+        franchise: "Super Mario",
+        console: "SNES",
+        releaseYear: "1992"
+    },
+    {
+        title: "Super Mario Kart",
+        imageUrl: "games/1992/Super Mario Kart.jpg",
+        franchise: "Super Mario",
+        console: "SNES",
+        releaseYear: "1992"
+    },
+    {
+        title: "Super Mario Land 2: 6 Gold Coins",
+        imageUrl: "games/1992/Six Gold Coins.jpg",
+        franchise: "Super Mario",
+        console: "GB",
+        releaseYear: "1992"
+    },
+    {
+        title: "Wave Race",
+        imageUrl: "games/1992/Wave Race.jpg",
+        franchise: "Wave Race",
+        console: "GB",
+        releaseYear: "1992"
+    },
+    {
+        title: "Yoshi's Cookie",
+        imageUrl: "games/1992/Yoshi's Cookie.jpg",
+        franchise: "Yoshi",
+        console: "NES",
+        releaseYear: "1992"
+    },
+    {
+        title: "Joy Mech Fight",
+        imageUrl: "games/1993/Joy Mech Fight.png",
+        franchise: "Joy Mech Fight",
+        console: "NES",
+        releaseYear: "1993"
+    },
+    {
+        title: "Kirby's Adventure",
+        imageUrl: "games/1993/Kirby's Adventure.jpg",
+        franchise: "Kirby",
+        console: "NES",
+        releaseYear: "1993"
+    },
+    {
+        title: "Star Fox",
+        imageUrl: "games/1993/Star Fox.jpg",
+        franchise: "Star Fox",
+        console: "SNES",
+        releaseYear: "1993"
+    },
+    {
+        title: "Super Mario All-Stars",
+        imageUrl: "games/1993/Super Mario All-Stars.jpg",
+        franchise: "Super Mario",
+        console: "SNES",
+        releaseYear: "1993"
+    },
+    {
+        title: "The Legend of Zelda: Link's Awakening",
+        imageUrl: "games/1993/Link's Awakening.png",
+        franchise: "The Legend of Zelda",
+        console: "GB",
+        releaseYear: "1993"
+    },
+    {
+        title: "Yoshi's Cookie",
+        imageUrl: "games/1993/Yoshi's Cookie SNES.jpg",
+        franchise: "Yoshi",
+        console: "SNES",
+        releaseYear: "1993"
+    },
+    {
+        title: "Yoshi's Safari",
+        imageUrl: "games/1993/Yoshi's Safari.jpg",
+        franchise: "Yoshi",
+        console: "SNES",
+        releaseYear: "1993"
+    },
+    {
+        title: "Donkey Kong Country",
+        imageUrl: "games/1994/DKC.png",
+        franchise: "Donkey Kong",
+        console: "SNES",
+        releaseYear: "1994"
+    },
+    {
+        title: "EarthBound",
+        imageUrl: "games/1994/EarthBound.jpg",
+        franchise: "EarthBound",
+        console: "SNES",
+        releaseYear: "1994"
+    },
+    {
+        title: "Fire Emblem: Mystery of the Emblem",
+        imageUrl: "games/1994/Mystery of the Emblem.png",
+        franchise: "Fire Emblem",
+        console: "SNES",
+        releaseYear: "1994"
+    },
+    {
+        title: "Kirby's Dream Course",
+        imageUrl: "games/1994/Dream Course.jpg",
+        franchise: "Kirby",
+        console: "SNES",
+        releaseYear: "1994"
+    },
+    {
+        title: "Super Metroid",
+        imageUrl: "games/1994/Super Metroid.jpg",
+        franchise: "Metroid",
+        console: "SNES",
+        releaseYear: "1994"
+    },
+    {
+        title: "Super Punch-Out!!",
+        imageUrl: "games/1994/Super Punch-Out!!.jpg",
+        franchise: "Punch-Out!!",
+        console: "SNES",
+        releaseYear: "1994"
+    },
+    {
+        title: "Wario Land: Super Mario Land 3",
+        imageUrl: "games/1994/Wario Land.jpg",
+        franchise: "Wario",
+        console: "GB",
+        releaseYear: "1994"
+    },
+    {
+        title: "Zoda's Revenge: StarTropics II",
+        imageUrl: "games/1994/Zoda's Revenge.jpg",
+        franchise: "StarTropics",
+        console: "NES",
+        releaseYear: "1994"
+    },
+    {
+        title: "Donkey Kong Country 2: Diddy's Kong Quest",
+        imageUrl: "games/1995/DKC2.png",
+        franchise: "Donkey Kong",
+        console: "SNES",
+        releaseYear: "1995"
+    },
+    {
+        title: "Donkey Kong Land",
+        imageUrl: "games/1995/DK Land.png",
+        franchise: "Donkey Kong",
+        console: "GB",
+        releaseYear: "1995"
+    },
+    {
+        title: "Kirby's Avalanche",
+        imageUrl: "games/1995/Kirby's Avalanche.jpg",
+        franchise: "Kirby",
+        console: "SNES",
+        releaseYear: "1995"
+    },
+    {
+        title: "Kirby's Block Ball",
+        imageUrl: "games/1995/Kirby's Block Ball.jpg",
+        franchise: "Kirby",
+        console: "GB",
+        releaseYear: "1995"
+    },
+    {
+        title: "Kirby's Dream Land 2",
+        imageUrl: "games/1995/Kirby's Dream Land 2.png",
+        franchise: "Kirby",
+        console: "GB",
+        releaseYear: "1995"
+    },
+    {
+        title: "Panel de Pon",
+        imageUrl: "games/1995/Panel de Pon.jpg",
+        franchise: "Panel de Pon",
+        console: "SNES",
+        releaseYear: "1995"
+    },
+    {
+        title: "Super Mario World 2: Yoshi's Island",
+        imageUrl: "games/1995/Yoshi's Island.jpg",
+        franchise: "Yoshi",
+        console: "SNES",
+        releaseYear: "1995"
+    },
+    {
+        title: "Donkey Kong Country 3: Dixie Kong's Double Trouble",
+        imageUrl: "games/1996/DKC3.png",
+        franchise: "Donkey Kong",
+        console: "SNES",
+        releaseYear: "1996"
+    },
+    {
+        title: "Donkey Kong Land 2",
+        imageUrl: "games/1996/DK Land 2.jpg",
+        franchise: "Donkey 1996",
+        console: "GB",
+        releaseYear: "1996"
+    },
+    {
+        title: "Fire Emblem: Genealogy of the Holy War",
+        imageUrl: "games/1996/Genealogy of the Holy War.png",
+        franchise: "Fire Emblem",
+        console: "SNES",
+        releaseYear: "1996"
+    },
+    {
+        title: "Kirby Super Star",
+        imageUrl: "games/1996/Kirby Super Star.jpg",
+        franchise: "Kirby",
+        console: "SNES",
+        releaseYear: "1996"
+    },
+    {
+        title: "Mario Kart 64",
+        imageUrl: "games/1996/Mario Kart 64.png",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "1996"
+    },
+    {
+        title: "Pilotwings 64",
+        imageUrl: "games/1996/Pilotwings 64.jpg",
+        franchise: "Pilotwings",
+        console: "N64",
+        releaseYear: "1996"
+    },
+    {
+        title: "Pokémon Blue Version",
+        imageUrl: "games/1996/Pokemon Blue.jpg",
+        franchise: "Pokémon",
+        console: "GB",
+        releaseYear: "1996"
+    },
+    {
+        title: "Pokémon Green Version",
+        imageUrl: "games/1996/Pokemon Green.png",
+        franchise: "Pokémon",
+        console: "GB",
+        releaseYear: "1996"
+    },
+    {
+        title: "Pokémon Red Version",
+        imageUrl: "games/1996/Pokemon Red.jpg",
+        franchise: "Pokémon",
+        console: "GB",
+        releaseYear: "1996"
+    },
+    {
+        title: "Super Mario 64",
+        imageUrl: "games/1996/Super Mario 64.jpg",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "1996"
+    },
+    {
+        title: "Super Mario RPG: Legend of the Seven Stars",
+        imageUrl: "games/1996/Super Mario RPG.jpg",
+        franchise: "Super Mario",
+        console: "SNES",
+        releaseYear: "1996"
+    },
+    {
+        title: "Wave Race 64",
+        imageUrl: "games/1996/Wave Race 64.jpg",
+        franchise: "Wave Race",
+        console: "N64",
+        releaseYear: "1996"
+    },
+    {
+        title: "Donkey Kong Land III",
+        imageUrl: "games/1997/DK Land III.jpg",
+        franchise: "Donkey Kong",
+        console: "GB",
+        releaseYear: "1997"
+    },
+    {
+        title: "Game & Watch Gallery",
+        imageUrl: "games/1997/Game & Watch Gallery.png",
+        franchise: "Game & Watch",
+        console: "GB",
+        releaseYear: "1997"
+    },
+    {
+        title: "Kirby's Dream Land 3",
+        imageUrl: "games/1997/Kirby's Dream Land 3.jpg",
+        franchise: "Kirby",
+        console: "SNES",
+        releaseYear: "1997"
+    },
+    {
+        title: "Kirby's Star Stacker",
+        imageUrl: "games/1997/Kirby's Star Stacker.jpg",
+        franchise: "Kirby",
+        console: "GB",
+        releaseYear: "1997"
+    },
+    {
+        title: "Star Fox 64",
+        imageUrl: "games/1997/Star Fox 64.jpg",
+        franchise: "Star Fox",
+        console: "N64",
+        releaseYear: "1997"
+    },
+    {
+        title: "Yoshi's Story",
+        imageUrl: "games/1997/Yoshi's Story.jpg",
+        franchise: "Yoshi",
+        console: "N64",
+        releaseYear: "1997"
+    },
+    {
+        title: "1080 Snowboarding",
+        imageUrl: "games/1998/Ten Eighty Snowboarding.jpg",
+        franchise: "1080",
+        console: "N64",
+        releaseYear: "1998"
+    },
+    {
+        title: "F-Zero X",
+        imageUrl: "games/1998/F-Zero X.jpg",
+        franchise: "F-Zero",
+        console: "N64",
+        releaseYear: "1998"
+    },
+    {
+        title: "Game & Watch Gallery 2",
+        imageUrl: "games/1998/Game & Watch Gallery 2.jpg",
+        franchise: "Game & Watch",
+        console: "GBC",
+        releaseYear: "1998"
+    },
+    {
+        title: "Hey You, Pikachu!",
+        imageUrl: "games/1998/Hey You Pikachu.jpg",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "1998"
+    },
+    {
+        title: "Mario Party",
+        imageUrl: "games/1998/Mario Party.jpg",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "1998"
+    },
+    {
+        title: "Pokémon Yellow Version",
+        imageUrl: "games/1998/Pokemon Yellow.jpg",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "1998"
+    },
+    {
+        title: "The Legend of Zelda: Link's Awakening DX",
+        imageUrl: "games/1998/Link's Awakening DX.jpg",
+        franchise: "The Legend of Zelda",
+        console: "GBC",
+        releaseYear: "1998"
+    },
+    {
+        title: "The Legend of Zelda: Ocarina of Time",
+        imageUrl: "games/1998/Ocarina of Time.jpg",
+        franchise: "The Legend of Zelda",
+        console: "N64",
+        releaseYear: "1998"
+    },
+    {
+        title: "Wario Land II",
+        imageUrl: "games/1998/Wario Land II.png",
+        franchise: "Wario",
+        console: "GB",
+        releaseYear: "1998"
+    },
+    {
+        title: "Wario Land II",
+        imageUrl: "games/1998/Wario Land II GBC.png",
+        franchise: "Wario",
+        console: "GBC",
+        releaseYear: "1998"
+    },
+    {
+        title: "Wrecking Crew '98",
+        imageUrl: "games/1998/Wrecking Crew '98.jpg",
+        franchise: "Wrecking Crew",
+        console: "SNES",
+        releaseYear: "1998"
+    },
+    {
+        title: "Custom Robo",
+        imageUrl: "games/1999/Custom Robo 64.jpg",
+        franchise: "Custom Robo",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Donkey Kong 64",
+        imageUrl: "games/1999/Donkey Kong 64.jpg",
+        franchise: "Donkey Kong",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Fire Emblem: Thracia 776",
+        imageUrl: "games/1999/Thracia 776.jpg",
+        franchise: "Fire Emblem",
+        console: "SNES",
+        releaseYear: "1999"
+    },
+    {
+        title: "Game & Watch Gallery 3",
+        imageUrl: "games/1999/Game & Watch Gallery 3.jpg",
+        franchise: "Game & Watch",
+        console: "GBC",
+        releaseYear: "1999"
+    },
+    {
+        title: "Mario Golf",
+        imageUrl: "games/1999/Mario Golf.jpg",
+        franchise: "Super Mario",
+        console: "GBC",
+        releaseYear: "1999"
+    },
+    {
+        title: "Mario Golf",
+        imageUrl: "games/1999/Mario Golf 64.jpg",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Mario Party 2",
+        imageUrl: "games/1999/Mario Party 2.jpg",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Pokémon Gold Version",
+        imageUrl: "games/1999/Pokemon Gold.png",
+        franchise: "Pokémon",
+        console: "GBC",
+        releaseYear: "1999"
+    },
+    {
+        title: "Pokémon Pinball",
+        imageUrl: "games/1999/PKMN Pinball.jpg",
+        franchise: "Pokémon",
+        console: "GBC",
+        releaseYear: "1999"
+    },
+    {
+        title: "Pokémon Silver Version",
+        imageUrl: "games/1999/Pokemon Silver.jpg",
+        franchise: "Pokémon",
+        console: "GBC",
+        releaseYear: "1999"
+    },
+    {
+        title: "Pokémon Snap",
+        imageUrl: "games/1999/Pokémon Snap.jpg",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Pokémon Stadium",
+        imageUrl: "games/1999/Pokémon Stadium.jpg",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Super Mario Bros. Deluxe",
+        imageUrl: "games/1999/Super Mario Bros. Deluxe.png",
+        franchise: "Super Mario",
+        console: "GBC",
+        releaseYear: "1999"
+    },
+    {
+        title: "Super Smash Bros.",
+        imageUrl: "games/1999/Super Smash Bros..jpg",
+        franchise: "Super Smash Bros.",
+        console: "N64",
+        releaseYear: "1999"
+    },
+    {
+        title: "Custom Robo V2",
+        imageUrl: "games/2000/Custom Robo V2.jpg",
+        franchise: "Custom Robo",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Excitebike 64",
+        imageUrl: "games/2000/Excitebike 64.jpg",
+        franchise: "Excite",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Kirby 64: The Crystal Shards",
+        imageUrl: "games/2000/The Crystal Shards.jpg",
+        franchise: "Kirby",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Mario Party 3",
+        imageUrl: "games/2000/Mario Party 3.png",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Mario Tennis",
+        imageUrl: "games/2000/Mario Tennis.jpg",
+        franchise: "Super Mario",
+        console: "GBC",
+        releaseYear: "2000"
+    },
+    {
+        title: "Mario Tennis",
+        imageUrl: "games/2000/Mario Tennis 64.jpg",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Paper Mario",
+        imageUrl: "games/2000/Paper Mario.jpg",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Pokémon Crystal Version",
+        imageUrl: "games/2000/Pokemon Crystal.png",
+        franchise: "Pokémon",
+        console: "GBC",
+        releaseYear: "2000"
+    },
+    {
+        title: "Pokémon Stadium 2",
+        imageUrl: "games/2000/Pokémon Stadium 2.jpg",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Sin & Punishment",
+        imageUrl: "games/2000/Sin & Punishment.jpg",
+        franchise: "Sin & Punishment",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "The Legend of Zelda: Majora's Mask",
+        imageUrl: "games/2000/Majora's Mask.jpg",
+        franchise: "The Legend of Zelda",
+        console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Wario Land 3",
+        imageUrl: "games/2000/Wario Land 3.png",
+        franchise: "Wario",
+        console: "GBC",
+        releaseYear: "2000"
+    },
+    {
+        title: "Advance Wars",
+        imageUrl: "games/2001/Advance Wars.jpg",
+        franchise: "Advance Wars",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
+        title: "Animal Crossing",
+        imageUrl: "games/2001/Animal Crossing.jpg",
+        franchise: "Animal Crossing",
+        console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "Animal Forest",
+        imageUrl: "games/2001/Animal Forest.jpg",
+        franchise: "Animal Crossing",
+        console: "N64",
+        releaseYear: "2001"
+    },
+    {
+        title: "Dr. Mario 64",
+        imageUrl: "games/2001/Dr. Mario 64.png",
+        franchise: "Super Mario",
+        console: "N64",
+        releaseYear: "2001"
+    },
+    {
+        title: "F-Zero: Maximum Velocity",
+        imageUrl: "games/2001/Maximum Velocity.jpg",
+        franchise: "F-Zero",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
+        title: "Golden Sun",
+        imageUrl: "games/2001/Golden Sun.jpg",
+        franchise: "Golden Sun",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
+        title: "Luigi's Mansion",
+        imageUrl: "games/2001/Luigi's Mansion.jpg",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "Mario Kart: Super Circuit",
+        imageUrl: "games/2001/Mario Kart Super Circuit.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
+        title: "Pikmin",
+        imageUrl: "games/2001/Pikmin.jpg",
+        franchise: "Pikmin",
+        console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "Super Mario Advance",
+        imageUrl: "games/2001/Super Mario Advance.png",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
+        title: "Super Smash Bros. Melee",
+        imageUrl: "games/2001/Super Smash Bros. Melee.png",
+        franchise: "Super Smash Bros.",
+        console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "The Legend of Zelda: Oracle of Ages",
+        imageUrl: "games/2001/Oracle of Ages.png",
+        franchise: "The Legend of Zelda",
+        console: "GBC",
+        releaseYear: "2001"
+    },
+    {
+        title: "The Legend of Zelda: Oracle of Seasons",
+        imageUrl: "games/2001/Oracle of Seasons.png",
+        franchise: "The Legend of Zelda",
+        console: "GBC",
+        releaseYear: "2001"
+    },
+    {
+        title: "Wario Land 4",
+        imageUrl: "games/2001/Wario Land 4.jpg",
+        franchise: "Wario",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
+        title: "Wave Race: Blue Storm",
+        imageUrl: "games/2001/Blue Storm.jpg",
+        franchise: "Wave Race",
+        console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "Doshin the Giant",
+        imageUrl: "games/2002/Doshin the Giant.jpg",
+        franchise: "Doshin the Giant",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
+        title: "Fire Emblem: The Binding Blade",
+        imageUrl: "games/2002/The Binding Blade.jpg",
+        franchise: "Fire Emblem",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Game & Watch Gallery 4",
+        imageUrl: "games/2002/Game & Watch Gallery 4.jpg",
+        franchise: "Game & Watch",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Kirby: Nightmare in Dream Land",
+        imageUrl: "games/2002/Nightmare in Dream Land.jpg",
+        franchise: "Kirby",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Mario Party 4",
+        imageUrl: "games/2002/Mario Party 4.png",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
+        title: "Metroid Fusion",
+        imageUrl: "games/2002/Metroid Fusion.jpg",
+        franchise: "Metroid",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Metroid Prime",
+        imageUrl: "games/2002/Metroid Prime.jpg",
+        franchise: "Metroid",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
+        title: "Pokémon Ruby Version",
+        imageUrl: "games/2002/Pokemon Ruby.jpg",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Pokémon Sapphire Version",
+        imageUrl: "games/2002/Pokemon Sapphire.jpg",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Star Fox Adventures",
+        imageUrl: "games/2002/Star Fox Adventures.jpg",
+        franchise: "Star Fox",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
+        title: "Super Mario Sunshine",
+        imageUrl: "games/2002/Super Mario Sunshine.jpg",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
+        title: "Super Mario World: Super Mario Advance 2",
+        imageUrl: "games/2002/SMA 2.png",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "The Legend of Zelda: Four Swords",
+        imageUrl: "games/2002/Four Swords.jpg",
+        franchise: "The Legend of Zelda",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "The Legend of Zelda: The Wind Waker",
+        imageUrl: "games/2002/The Wind Waker.jpg",
+        franchise: "The Legend of Zelda",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
+        title: "The Legendary Stafy",
+        imageUrl: "games/2002/The Legendary Stafy.png",
+        franchise: "The Legendary Starfy",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Yoshi's Island: Super Mario Advance 3",
+        imageUrl: "games/2002/SMA 3.png",
+        franchise: "Yoshi",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "1080 Avalanche",
+        imageUrl: "games/2003/Ten Eighty Avalanche.jpg",
+        franchise: "1080",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "Advance Wars 2: Black Hole Rising",
+        imageUrl: "games/2003/Black Hole Rising.jpg",
+        franchise: "Advance Wars",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Donkey Konga",
+        imageUrl: "games/2003/DOnkey Konga.jpg",
+        franchise: "Donkey Kong",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "F-Zero GX",
+        imageUrl: "games/2003/F-Zero GX.jpg",
+        franchise: "F-Zero",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "F-Zero: GP Legend",
+        imageUrl: "games/2003/GP Legend.jpg",
+        franchise: "F-Zero",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Fire Emblem: The Blazing Blade",
+        imageUrl: "games/2003/The Blazing Blade.jpg",
+        franchise: "Fire Emblem",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Golden Sun: The Lost Age",
+        imageUrl: "games/2003/The Lost Age.jpg",
+        franchise: "Golden Sun",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Kirby: Air Ride",
+        imageUrl: "games/2003/Kirby Air Ride.jpg",
+        franchise: "Kirby",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "Mario & Luigi: Superstar Saga",
+        imageUrl: "games/2003/Superstar Saga.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Mario Golf: Toadstool Tour",
+        imageUrl: "games/2003/Toadstool Tour.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Mario Kart: Double Dash!!",
+        imageUrl: "games/2003/Mario Kart Double Dash!!.png",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "Mario Party 5",
+        imageUrl: "games/2003/Mario Party 5.png",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "Pokémon Colosseum",
+        imageUrl: "games/2003/Pokémon Colosseum.jpg",
+        franchise: "Pokémon",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "Pokémon Pinball: Ruby & Sapphire",
+        imageUrl: "games/2003/PKMN Pinball RS.jpg",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Super Mario Bros. 3: Super Mario Advance 4",
+        imageUrl: "games/2003/SMA 4.png",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "The Legend of Zelda Collector's Edition",
+        imageUrl: "games/2003/The Legend of Zelda Collector's Edition.png",
+        franchise: "The Legend of Zelda",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "The Legendary Stafy 2",
+        imageUrl: "games/2003/The Legendary Stafy 2.jpg",
+        franchise: "The Legendary Starfy",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Wario World",
+        imageUrl: "games/2003/Wario World.jpg",
+        franchise: "Wario",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "WarioWare Inc.: Mega Microgames",
+        imageUrl: "games/2003/Mega Microgames.jpg",
+        franchise: "Wario",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "WarioWare Inc.: Mega Party Games",
+        imageUrl: "games/2003/Mega Party Games.jpg",
+        franchise: "Wario",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "Custom Robo",
+        imageUrl: "games/2004/Custom Robo.jpg",
+        franchise: "Custom Robo",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Daigasso! Band Brothers",
+        imageUrl: "games/2004/Daigasso! Band Brothers.jpg",
+        franchise: "Jam with the Band",
+        console: "DS",
+        releaseYear: "2004"
+    },
+    {
+        title: "Donkey Kong Jungle Beat",
+        imageUrl: "games/2004/Donkey Kong Jungle Beat.jpg",
+        franchise: "Donkey Kong",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Donkey Konga 2",
+        imageUrl: "games/2004/Donkey Konga 2.jpg",
+        franchise: "Donkey Kong",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "F-Zero Climax",
+        imageUrl: "games/2004/F-Zero Climax.jpg",
+        franchise: "F-Zero",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Fire Emblem: The Sacred Stones",
+        imageUrl: "games/2004/The Sacred Stones.png",
+        franchise: "Fire Emblem",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Kirby & the Amazing Mirror",
+        imageUrl: "games/2004/Kirby & The Amazing Mirror.jpg",
+        franchise: "Kirby",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Mario Golf: Advance Tour",
+        imageUrl: "games/2004/Advance Tour.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Mario Party 6",
+        imageUrl: "games/2004/Mario Party 6.jpg",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Mario Party Advance",
+        imageUrl: "games/2004/Mario Party Advance.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Mario Power Tennis",
+        imageUrl: "games/2004/Power Tennis.jpg",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Mario vs. Donkey Kong",
+        imageUrl: "games/2004/Mario vs. DK.png",
+        franchise: "Donkey Kong",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Metroid Prime 2: Echoes",
+        imageUrl: "games/2004/Metroid Prime 2.jpg",
+        franchise: "Metroid",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Metroid: Zero Mission",
+        imageUrl: "games/2004/Zero Mission.jpg",
+        franchise: "Metroid",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Paper Mario: The Thousand-Year Door",
+        imageUrl: "games/2004/The Thousand-Year Door.png",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Pikmin 2",
+        imageUrl: "games/2004/Pikmin 2.jpg",
+        franchise: "Pikmin",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "Pokémon Emerald Version",
+        imageUrl: "games/2004/Pokemon Emerald.jpg",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Pokémon FireRed Version",
+        imageUrl: "games/2004/Pokemon FireRed.jpg",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Pokémon LeafGreen Version",
+        imageUrl: "games/2004/Pokemon LeafGreen.jpg",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Super Mario 64 DS",
+        imageUrl: "games/2004/Super Mario 64 DS.jpg",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2004"
+    },
+    {
+        title: "The Legend of Zelda: Four Swords Adventures",
+        imageUrl: "games/2004/Four Swords Adventures.png",
+        franchise: "The Legend of Zelda",
+        console: "GCN",
+        releaseYear: "2004"
+    },
+    {
+        title: "The Legend of Zelda: The Minish Cap",
+        imageUrl: "games/2004/The Minish Cap.jpg",
+        franchise: "The Legend of Zelda",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "The Legendary Stafy 3",
+        imageUrl: "games/2004/The Legendary Stafy 3.jpg",
+        franchise: "The Legendary Starfy",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "WarioWare: Touched!",
+        imageUrl: "games/2004/WarioWare Touched.jpg",
+        franchise: "Wario",
+        console: "DS",
+        releaseYear: "2004"
+    },
+    {
+        title: "WarioWare: Twisted!",
+        imageUrl: "games/2004/WarioWare Twisted.jpg",
+        franchise: "Wario",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Yoshi: Topsy-Turvy",
+        imageUrl: "games/2004/Yoshi Topsy-Turvy.jpg",
+        franchise: "Yoshi",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Advance Wars: Dual Strike",
+        imageUrl: "",
+        franchise: "Advance Wars",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Animal Crossing: Wild World",
+        imageUrl: "",
+        franchise: "Animal Crossing",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Big Brain Academy",
+        imageUrl: "",
+        franchise: "Big Brain Academy",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Brain Age",
+        imageUrl: "",
+        franchise: "Brain Age",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Brain Age 2",
+        imageUrl: "",
+        franchise: "Brain Age",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Chibi-Robo!",
+        imageUrl: "",
+        franchise: "Chibi-Robo",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "DK King of Swing",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "GBA",
+        releaseYear: "2005"
+    },
+    {
+        title: "Donkey Konga 3 JP",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Drill Dozer",
+        imageUrl: "",
+        franchise: "Drill Dozer",
+        console: "GBA",
+        releaseYear: "2005"
+    },
+    {
+        title: "Electroplankton",
+        imageUrl: "",
+        franchise: "Electroplankton",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Fire Emblem: Path of Radiance",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Kirby: Canvas Curse",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Mario & Luigi: Partners in Time",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Mario Kart DS",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Mario Party 7",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Mario Superstar Baseball",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Mario Tennis: Power Tour",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2005"
+    },
+    {
+        title: "Metroid Prime Pinball",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Nintendogs: Chiuahua and Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Nintendogs: Dachshund and Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Nintendogs: Labrador and Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Nintendogs: Shiba Inu and Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Blue Rescue Team",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Red Rescue Team",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "GBA",
+        releaseYear: "2005"
+    },
+    {
+        title: "Pokémon Trozei!",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Pokémon XD: Gale of Darkness",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Star Fox Assault",
+        imageUrl: "",
+        franchise: "Star Fox",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Super Mario Strikers",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "GCN",
+        releaseYear: "2005"
+    },
+    {
+        title: "Super Princess Peach",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Yoshi Touch & Go",
+        imageUrl: "",
+        franchise: "Yoshi",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Custom Robo Arena",
+        imageUrl: "",
+        franchise: "Custom Robo",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Excite Truck",
+        imageUrl: "",
+        franchise: "Excite",
+        console: "Wii",
+        releaseYear: "2006"
+    },
+    {
+        title: "Freshly Picked Tingle's Rosy Rupeeland",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Kirby: Squeak Squad",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Mario Hoops 3 on 3",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Mario vs. Donkey Kong 2: March of the Minis",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Metroid Prime Hunters",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Mother 3",
+        imageUrl: "",
+        franchise: "EarthBound",
+        console: "GBA",
+        releaseYear: "2006"
+    },
+    {
+        title: "New Super Mario Bros.",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Nintendogs: Dalmatian and Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Pokémon Battle Revolution",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2006"
+    },
+    {
+        title: "Pokémon Diamond Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Pokémon Pearl Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Pokémon Ranger",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Rhythm Heaven",
+        imageUrl: "",
+        franchise: "Rhythm Heaven",
+        console: "GBA",
+        releaseYear: "2006"
+    },
+    {
+        title: "Star Fox Command",
+        imageUrl: "",
+        franchise: "Star Fox",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "The Legend of Zelda: Twilight Princess",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "GCN",
+        releaseYear: "2006"
+    },
+    {
+        title: "The Legend of Zelda: Twilight Princess",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii",
+        releaseYear: "2006"
+    },
+    {
+        title: "The Legendary Stafy 4",
+        imageUrl: "",
+        franchise: "The Legendary Starfy",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "WarioWare: Smooth Moves",
+        imageUrl: "",
+        franchise: "Wario",
+        console: "Wii",
+        releaseYear: "2006"
+    },
+    {
+        title: "Wii Play",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2006"
+    },
+    {
+        title: "Wii Sports",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2006"
+    },
+    {
+        title: "Yoshi's Island DS",
+        imageUrl: "",
+        franchise: "Yoshi",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Big Brain Academy: Wii Degree",
+        imageUrl: "",
+        franchise: "Big Brain Academy",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Chibi-Robo: Park Patrol",
+        imageUrl: "",
+        franchise: "Chibi-Robo",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "DK Jungle Climber",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "Endless Ocean",
+        imageUrl: "",
+        franchise: "Endless Ocean",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Fire Emblem: Radiant Dawn",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Link's Crossbow Training",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Mario Party 8",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Mario Party DS",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "Mario Strikers Charged",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Metroid Prime 3: Corruption",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Explorers of Darkness",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Explorers of Time",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "PokéPark Wii: Pikachu's Adventure",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Rhythm Heaven Fever",
+        imageUrl: "",
+        franchise: "Rhythm Heaven",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Super Mario Galaxy",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Super Paper Mario",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "The Legend of Zelda: Phantom Hourglass",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "Tingle's Balloon Fight DS",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "Wario: Master of Disguise",
+        imageUrl: "",
+        franchise: "Wario",
+        console: "DS",
+        releaseYear: "2007"
+    },
+    {
+        title: "Wii Fit",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2007"
+    },
+    {
+        title: "Advance Wars: Days of Ruin",
+        imageUrl: "",
+        franchise: "Advance Wars",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Animal Crossing: City Folk",
+        imageUrl: "",
+        franchise: "Animal Crossing",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "Fire Emblem: Shadow Dragon",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Fossil Fighters",
+        imageUrl: "",
+        franchise: "Fossil Fighters",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Jam with the Band",
+        imageUrl: "",
+        franchise: "Jam with the Band",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Kirby Super Star Ultra",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Mario Kart Wii",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "Mario Super Sluggers",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "Pokémon Platinum Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Pokémon Ranger: Shadows of Almia",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Rhythm Heaven",
+        imageUrl: "",
+        franchise: "Rhythm Heaven",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Super Smash Bros. Brawl",
+        imageUrl: "",
+        franchise: "Super Smash Bros.",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "The Legendary Starfy",
+        imageUrl: "",
+        franchise: "The Legendary Starfy",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Wario Land: Shake It!",
+        imageUrl: "",
+        franchise: "Wario",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "Wii Chess",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "Wii Music",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "Another Code R: A Journey into Lost Memories",
+        imageUrl: "",
+        franchise: "Trace Memory",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Endless Ocean: Blue World",
+        imageUrl: "",
+        franchise: "Endless Ocean",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "ExciteBots: Trick Racing",
+        imageUrl: "",
+        franchise: "Excite",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Fire Emblem: New Mystery of the Emblem",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Golden Sun: Dark Dawn",
+        imageUrl: "",
+        franchise: "Golden Sun",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Kirby: Mass Attack",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Mario & Luigi: Bowser's Inside Story",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Mario vs. Donkey Kong: Mini-Land Mayhem",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Metroid Prime Trilogy",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "New Super Mario Bros. Wii",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon HeartGold Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Explorers of Sky",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Go For It! Light Adventure Squad",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Keep Going! Blazing Adventure Squad",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Let's Go! Stormy Adventure Squad",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon Rumble",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Pokémon SoulSilver Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Punch-Out!! Wii",
+        imageUrl: "",
+        franchise: "Punch-Out!!",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Sin & Punishment: Star Successor",
+        imageUrl: "",
+        franchise: "Sin & Punishment",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "The Legend of Zelda: Spirit Tracks",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Tingle's Balloon Trip of Love",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Tomodachi Collection",
+        imageUrl: "",
+        franchise: "Tomodachi",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Trace Memory",
+        imageUrl: "",
+        franchise: "Trace Memory",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "WarioWare: D.I.Y.",
+        imageUrl: "",
+        franchise: "Wario",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Wii Fit Plus",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Wii Sports Resort",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Donkey Kong Country Returns",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Fossil Fighters Champions",
+        imageUrl: "",
+        franchise: "Fossil Fighters",
+        console: "DS",
+        releaseYear: "2010"
+    },
+    {
+        title: "Kirby's Epic Yarn",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Mario Sports Mix",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Metroid: Other M",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Pokémon Black Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2010"
+    },
+    {
+        title: "Pokémon Ranger: Guardian Signs",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2010"
+    },
+    {
+        title: "Pokémon White Version",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2010"
+    },
+    {
+        title: "Super Mario All-Stars Limited Edition",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Super Mario Galaxy 2",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Wii Party",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Wii Play Motion",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Xenoblade Chronicles",
+        imageUrl: "",
+        franchise: "Xenoblade Chronicles",
+        console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Kirby's Return to Dream Land",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "Wii",
+        releaseYear: "2011"
+    },
+    {
+        title: "Mario Kart 7",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Nintendogs + Cats: French Bulldog and New Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Nintendogs + Cats: Golden Retriever and New Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Nintendogs + Cats: Toy Poodle and New Friends",
+        imageUrl: "",
+        franchise: "Nintendogs",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Pilotwings: Resort",
+        imageUrl: "",
+        franchise: "Pilotwings",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Pokémon Rumble Blast",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "PokéPark 2: Wonders Beyond",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii",
+        releaseYear: "2011"
+    },
+    {
+        title: "Star Fox 64 3D",
+        imageUrl: "",
+        franchise: "Star Fox",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Steel Diver",
+        imageUrl: "",
+        franchise: "Steel Diver",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Super Mario 3D Land",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "The Legend of Zelda: Four Swords - Anniversary Edition",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "The Legend of Zelda: Ocarina of Time 3D",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "The Legend of Zelda: Skyward Sword",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii",
+        releaseYear: "2011"
+    },
+    {
+        title: "Animal Crossing: New Leaf",
+        imageUrl: "",
+        franchise: "Animal Crossing",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Brain Age: Concentration Training",
+        imageUrl: "",
+        franchise: "Brain Age",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Dillon's Rolling Western",
+        imageUrl: "",
+        franchise: "Dillon's Rolling Western",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Fire Emblem Awakening",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Kid Icarus: Uprising",
+        imageUrl: "",
+        franchise: "Kid Icarus",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Kirby's Dream Collection",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "Wii",
+        releaseYear: "2012"
+    },
+    {
+        title: "Mario Party 9",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2012"
+    },
+    {
+        title: "Mario Tennis Open",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "New Super Mario Bros. 2",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "New Super Mario Bros. U",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2012"
+    },
+    {
+        title: "Nintendo Land",
+        imageUrl: "",
+        franchise: "Nintendo Land",
+        console: "Wii U",
+        releaseYear: "2012"
+    },
+    {
+        title: "Paper Mario: Sticker Star",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Pokémon Black Version 2",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Pokémon Conquest",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Pokémon Dream Radar",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Gates to Infinity",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Pokémon White Version 2",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Chibi-Robo: Photo Finder",
+        imageUrl: "",
+        franchise: "Chibi-Robo",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Daigasso! Band Brothers P",
+        imageUrl: "",
+        franchise: "Jam with the Band",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Dillon's Rolling Western: The Last Ranger",
+        imageUrl: "",
+        franchise: "Dillon's Rolling Western",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Donkey Kong Country Returns 3D",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Dr. Luigi",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Game & Wario",
+        imageUrl: "",
+        franchise: "Wario",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Luigi's Mansion: Dark Moon",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Mario & Luigi: Dream Team",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Mario and Donkey Kong: Minis on the Move",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Mario Party: Island Tour",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "New Super Luigi U",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Pikmin 3",
+        imageUrl: "",
+        franchise: "Pikmin",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Pokémon Rumble U",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Pokémon X",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Pokémon Y",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Super Mario 3D World",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "The Legend of Zelda: A Link Between Worlds",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "The Legend of Zelda: The Wind Waker HD",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Tomodachi Life",
+        imageUrl: "",
+        franchise: "Tomodachi",
+        console: "3DS",
+        releaseYear: "2013"
+    },
+    {
+        title: "Wii Fit U",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Wii Party U",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Wii Sports Club",
+        imageUrl: "",
+        franchise: "Wii",
+        console: "Wii U",
+        releaseYear: "2013"
+    },
+    {
+        title: "Captain Toad Treasure Tracker",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2014"
+    },
+    {
+        title: "Dedede's Drum Dash Deluxe",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Donkey Kong Country: Tropical Freeze",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "Wii U",
+        releaseYear: "2014"
+    },
+    {
+        title: "Fossil Fighters Frontier",
+        imageUrl: "",
+        franchise: "Fossil FIghters",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Hyrule Warriors",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii U",
+        releaseYear: "2014"
+    },
+    {
+        title: "Kirby Fighters Deluxe",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Kirby: Triple Deluxe",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Mario Golf: World Tour",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Mario Kart 8",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2014"
+    },
+    {
+        title: "Pokémon AlphaSapphire",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Pokémon Battle Trozei",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Pokémon OmegaRuby",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Steel Diver: Sub Wars",
+        imageUrl: "",
+        franchise: "Steel Diver",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Super Smash Bros. for Nintendo 3DS",
+        imageUrl: "",
+        franchise: "Super Smash Bros.",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Super Smash Bros. for Wii U",
+        imageUrl: "",
+        franchise: "Super Smash Bros.",
+        console: "Wii U",
+        releaseYear: "2014"
+    },
+    {
+        title: "Yoshi's New Island",
+        imageUrl: "",
+        franchise: "Yoshi",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Animal Crossing: Amiibo Festival",
+        imageUrl: "",
+        franchise: "Animal Crossing",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Animal Crossing: Happy Home Designer",
+        imageUrl: "",
+        franchise: "Animal Crossing",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Chibi-Robo: Zip Lash",
+        imageUrl: "",
+        franchise: "Chibi-Robo",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Dr. Mario: Miracle Cure",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Fire Emblem Fates: Birthright",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Fire Emblem Fates: Conquest",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Fire Emblem Fates: Revelation",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Kirby and the Rainbow Curse",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Mario & Luigi: Paper Jam",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Mario Party 10",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Mario Tennis: Ultra Smash",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Mario vs. Donkey Kong: Tipping Stars",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Mario vs. Donkey Kong: Tipping Stars",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Pokémon Rumble World",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Pokémon Shuffle",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Pokémon Super Mystery Dungeon",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Pokkén Tournament",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Rhythm Heaven Megamix",
+        imageUrl: "",
+        franchise: "Rhythm Heaven",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Splatoon",
+        imageUrl: "",
+        franchise: "Splatoon",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Super Mario Maker",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "The Legend of Zelda: Majora's Mask 3D",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "The Legend of Zelda: Tri Force Heroes",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Tokyo Mirage Sessions #FE",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Xenoblade Chronicles 3D",
+        imageUrl: "",
+        franchise: "Xenoblade Chronicles",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Xenoblade Chronicles X",
+        imageUrl: "",
+        franchise: "Xenoblade Chronicles",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Yoshi's Woolly World",
+        imageUrl: "",
+        franchise: "Yoshi",
+        console: "Wii U",
+        releaseYear: "2015"
+    },
+    {
+        title: "Detective Pikachu",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Hyrule Warriors Legends",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Kirby: Planet Robobot",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Mario Party: Star Rush",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Metroid Prime: Federation Force",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Miitopia",
+        imageUrl: "",
+        franchise: "Tomodachi",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Paper Mario: Color Splash",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Wii U",
+        releaseYear: "2016"
+    },
+    {
+        title: "Pokémon Moon",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Pokémon Sun",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Star Fox Guard",
+        imageUrl: "",
+        franchise: "Star Fox",
+        console: "Wii U",
+        releaseYear: "2016"
+    },
+    {
+        title: "Star Fox Zero",
+        imageUrl: "",
+        franchise: "Star Fox",
+        console: "Wii U",
+        releaseYear: "2016"
+    },
+    {
+        title: "Super Mario Maker for Nintendo 3DS",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "The Legend of Zelda: Twilight Princess HD",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii U",
+        releaseYear: "2016"
+    },
+    {
+        title: "1-2-Switch",
+        imageUrl: "",
+        franchise: "1-2-Switch",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Arms",
+        imageUrl: "",
+        franchise: "Arms",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Fire Emblem Echoes: Shadows of Valentia",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Fire Emblem Warriors",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Fire Emblem Warriors",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Mario & Luigi: Superstar Saga + Bowser's Minions",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Mario Kart 8 Deluxe",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Mario Party: The Top 100",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Mario Sports Superstars",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Metroid: Samus Returns",
+        imageUrl: "",
+        franchise: "Metroid",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Pokémon UltraMoon",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Pokémon UltraSun",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Pokkén Tournament DX",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Poochy & Yoshi's Woolly World",
+        imageUrl: "",
+        franchise: "Yoshi",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Splatoon 2",
+        imageUrl: "",
+        franchise: "Splatoon",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Star Fox 2",
+        imageUrl: "",
+        franchise: "Star Fox",
+        console: "SNES",
+        releaseYear: "2017"
+    },
+    {
+        title: "Super Mario Odyssey",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "The Legend of Zelda: Breath of the Wild",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "The Legend of Zelda: Breath of the Wild",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Wii U",
+        releaseYear: "2017"
+    },
+    {
+        title: "Xenoblade Chronicles 2",
+        imageUrl: "",
+        franchise: "Xenoblade Chronicles",
+        console: "Switch",
+        releaseYear: "2017"
+    },
+    {
+        title: "Captain Toad Treasure Tracker",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2018"
+    },
+    {
+        title: "Captain Toad Treasure Tracker",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Dillon's Dead-Heat Breakers",
+        imageUrl: "",
+        franchise: "Dillon's Rolling Western",
+        console: "3DS",
+        releaseYear: "2018"
+    },
+    {
+        title: "Donkey Kong Country: Tropical Freeze",
+        imageUrl: "",
+        franchise: "Donkey Kong",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Hyrule Warriors Definitive Edition",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Kirby: Star Allies",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Luigi's Mansion",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2018"
+    },
+    {
+        title: "Mario Tennis Aces",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Pokémon Quest",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Pokémon: Let's Go, Eevee!",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Pokémon: Let's Go, Pikachu!",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Super Mario Party",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Super Smash Bros. Ultimate",
+        imageUrl: "",
+        franchise: "Super Smash Bros.",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "WarioWare Gold",
+        imageUrl: "",
+        franchise: "Wario",
+        console: "3DS",
+        releaseYear: "2018"
+    },
+    {
+        title: "Xenoblade Chronicles 2: Torna - The Golden Country",
+        imageUrl: "",
+        franchise: "Xenoblade Chronicles",
+        console: "Switch",
+        releaseYear: "2018"
+    },
+    {
+        title: "Fire Emblem: Three Houses",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Kirby's Extra Epic Yarn",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "3DS",
+        releaseYear: "2019"
+    },
+    {
+        title: "Luigi's Mansion 3",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2019"
+    },
+    {
+        title: "New Super Mario Bros. U Deluxe",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Pokémon Shield",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Pokémon Sword",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Ring Fit Adventure",
+        imageUrl: "",
+        franchise: "Ring Fit Adventure",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Super Mario Maker 2",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "The Legend of Zelda: Link's Awakening",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Yoshi's Crafted World",
+        imageUrl: "",
+        franchise: "Yoshi",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
+        title: "Animal Crossing: New Horizons",
+        imageUrl: "",
+        franchise: "Animal Crossing",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Dr. Kawashima's Brain Training for Nintendo Switch",
+        imageUrl: "",
+        franchise: "Brain Age",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Hyrule Warriors: Age of Calamity",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Kirby Fighters 2",
+        imageUrl: "",
+        franchise: "Kirby",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Mario Kart Live: Home Circuit",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Paper Mario: The Origami King",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Pikmin 3 Deluxe",
+        imageUrl: "",
+        franchise: "Pikmin",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Pokémon Café Mix",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Pokémon Mystery Dungeon: Rescue Team DX",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Super Mario 3D All-Stars",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Tokyo Mirage Sessions #FE Encore",
+        imageUrl: "",
+        franchise: "Fire Emblem",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Xenoblade Chronicles Definitive Edition",
+        imageUrl: "",
+        franchise: "Xenoblade Chronicles",
+        console: "Switch",
+        releaseYear: "2020"
+    },
+    {
+        title: "Game Builder Garage",
+        imageUrl: "",
+        franchise: "Game Builder Garage",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Mario Golf: Super Rush",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Miitopia",
+        imageUrl: "",
+        franchise: "Tomodachi",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "New Pokémon Snap",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Pokémon BrilliantDiamond",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Pokémon ShiningPearl",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Super Mario 3D World + Bowser's Fury",
+        imageUrl: "",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "The Legend of Zelda: Skyward Sword HD",
+        imageUrl: "",
+        franchise: "The Legend of Zelda",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Pokémon Legends: Arceus",
+        imageUrl: "",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2022"
+    },
+    {
+        title: "Splatoon 3",
+        imageUrl: "",
+        franchise: "Splatoon",
+        console: "Switch",
+        releaseYear: "2022"
+    }
+]
+
+let gameRender = (nintendo) => {
+    let gameCase = document.getElementById("container")
+    gameCase.innerHTML=""
+
+    nintendo.forEach(videoGame => {
+        let divVariable = document.createElement("div")
+        divVariable.className = "nintendoGames"
+        let gameTitle = document.createElement("h3")
+        gameTitle.append(videoGame.title)
+        let gameImage = document.createElement("img")
+        gameImage.src = videoGame.imageUrl
+        gameImage.style = "height:200px"
+        gameImage.style = "width: 200px"
+        let gameFranchise = document.createElement("p")
+        gameFranchise.append(videoGame.franchise, " series")
+        let gameConsole = document.createElement("p")
+        gameConsole.append(videoGame.console)
+        let gameRelease = document.createElement("p")
+        gameRelease.append("First released in ", videoGame.releaseYear)
+
+        divVariable.append(gameTitle)
+        divVariable.append(gameImage)
+        divVariable.append(gameFranchise)
+        divVariable.append(gameConsole)
+        divVariable.append(gameRelease)
+        gameCase.append(divVariable)
+    })
+}
+gameRender(gameList)
+
+
+let sortAbc = document.getElementById("sortTitle")
+sortAbc.addEventListener("click", sortAlphabet)
+function sortAlphabet(event){
+    event.preventDefault()
+
+let sortedTitle = gameList.sort((a, b) => {
+    let pma = a.title.toLowerCase(),
+        pmb = b.title.toLowerCase();
+
+    if (pma < pmb) {
+        return -1;
+    }
+    if (pma > pmb) {
+        return 1;
+    }
+    return 0;
+});
+gameList.forEach((videoGame) => {
+    console.log(`${videoGame.title}`);
+    
+});
+gameRender(sortedTitle)
+}
+
+let sortSeries = document.getElementById("sortFranchise")
+sortSeries.addEventListener("click", sortBySeries)
+function sortBySeries(event){
+    event.preventDefault()
+
+let sortedFranchise = gameList.sort((a, b) => {
+    let pma = a.franchise.toLowerCase(),
+        pmb = b.franchise.toLowerCase();
+
+    if (pma < pmb) {
+        return -1;
+    }
+    if (pma > pmb) {
+        return 1;
+    }
+    return 0;
+});
+gameList.forEach((videoGame) => {
+    console.log(`${videoGame.franchise}`);
+    
+});
+gameRender(sortedFranchise)
+}
+
+let sortSystem = document.getElementById("sortConsole")
+sortSystem.addEventListener("click", sortByConsole)
+function sortByConsole(event){
+    event.preventDefault()
+
+let sortedConsole = gameList.sort((a, b) => {
+    let pma = a.console.toLowerCase(),
+        pmb = b.console.toLowerCase();
+
+    if (pma < pmb) {
+        return -1;
+    }
+    if (pma > pmb) {
+        return 1;
+    }
+    return 0;
+});
+gameList.forEach((videoGame) => {
+    console.log(`${videoGame.console}`);
+    
+});
+gameRender(sortedConsole)
+}
+
+
+let sort123 = document.getElementById("sortYear")
+sort123.addEventListener("click", sortNumber)
+function sortNumber(event){
+    event.preventDefault()
+
+let sortedYear = gameList.sort((a, b) => {
+    return a.releaseYear - b.releaseYear;
+});
+gameList.forEach((videoGame) => {
+    console.log(`${videoGame.releaseYear}`);
+    
+});
+gameRender(sortedYear)
+}
+
+let search = document.getElementById("searchButton")
+search.addEventListener("click", searchFilter)
+function searchFilter(event){
+    event.preventDefault()
+
+let titleId = document.getElementById("title_input").value
+let franchiseId = document.getElementById("franchise_input").value
+let consoleId = document.getElementById("console_input").value
+let yearId = document.getElementById("release_input").value
+
+let filterGames = gameList.filter(searching => searching.title.toLowerCase().indexOf(titleId.toLowerCase()) > -1 )
+.filter(searching => String(searching.franchise).toLowerCase().indexOf(franchiseId.toLowerCase()) > -1 )
+.filter(searching => String(searching.console).toLowerCase().indexOf(consoleId.toLowerCase()) > -1 )
+.filter(searching => searching.releaseYear.indexOf(yearId) > -1 )
+
+
+
+gameRender(filterGames)
+}
+
+

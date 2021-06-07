@@ -1,0 +1,34 @@
+body {
+    background-color: #6545b2;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nintendoGames {
+    border: 5px solid #e60012;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    max-width: 210px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+input {
+    margin: 15px;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}

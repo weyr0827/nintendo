@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
+    <!-- Title Page-->
+    <title>Nintendo Games</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">  
+  </head>
+
+  <body style="text-align: center;">
+    <h1>Nintendo Games</h1>
+    <div>
+      <label for="title_input">Title</label>
+      <input id="title_input" type="text" placeholder="title"/>
+      <label for="franchise_input">Franchise</label>
+      <input id="franchise_input" type="text" placeholder="franchise"/>
+      <label for="console_input">Console</label>
+      <input id="console_input" type="text" placeholder="console"/>
+      <label for="release_input">Release Year</label>
+      <input id="release_input" type="text" placeholder="release year"/>
+      <button id=searchButton>Search</button>
+      </br>
+      <button id="sortTitle">Sort by Title</button>
+      <button id="sortFranchise">Sort by Franchise</button>
+      <button id="sortConsole">Sort by Console</button>
+      <button id="sortYear">Sort by Release Year</button>
+      
+    </div>
+    <div id=container></div>
+    <script src="code.js"></script>
+  </body>
+</html>
