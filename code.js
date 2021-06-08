@@ -3103,6 +3103,13 @@ let gameList = [
         releaseYear: "2017"
     },
     {
+        title: "Hey! Pikmin",
+        imageUrl: "games/2017/Hey! Pikmin.jpg",
+        franchise: "Pikmin",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
         title: "Mario & Luigi: Superstar Saga + Bowser's Minions",
         imageUrl: "games/2017/Bowser's Minions.jpg",
         franchise: "Super Mario",
