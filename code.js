@@ -2530,1015 +2530,1015 @@ let gameList = [
     },
     {
         title: "Chibi-Robo: Photo Finder",
-        imageUrl: "",
+        imageUrl: "games/2013/Photo Finder.jpg",
         franchise: "Chibi-Robo",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Daigasso! Band Brothers P",
-        imageUrl: "",
+        imageUrl: "games/2013/Daigasso! Band Brothers P.png",
         franchise: "Jam with the Band",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Dillon's Rolling Western: The Last Ranger",
-        imageUrl: "",
+        imageUrl: "games/2013/The Last Ranger.png",
         franchise: "Dillon's Rolling Western",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Donkey Kong Country Returns 3D",
-        imageUrl: "",
+        imageUrl: "games/2013/Donkey Kong Country Returns 3D.jpg",
         franchise: "Donkey Kong",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Dr. Luigi",
-        imageUrl: "",
+        imageUrl: "games/2013/Dr. Luigi.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Game & Wario",
-        imageUrl: "",
+        imageUrl: "games/2013/Game & Wario.jpg",
         franchise: "Wario",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Luigi's Mansion: Dark Moon",
-        imageUrl: "",
+        imageUrl: "games/2013/Dark Moon.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Mario & Luigi: Dream Team",
-        imageUrl: "",
+        imageUrl: "games/2013/Dream Team.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Mario and Donkey Kong: Minis on the Move",
-        imageUrl: "",
+        imageUrl: "games/2013/Minis on the Move.jpg",
         franchise: "Donkey Kong",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Mario Party: Island Tour",
-        imageUrl: "",
+        imageUrl: "games/2013/Island Tour.png",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "New Super Luigi U",
-        imageUrl: "",
+        imageUrl: "games/2013/New Super Luigi U.png",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Pikmin 3",
-        imageUrl: "",
+        imageUrl: "games/2013/Pikmin 3.png",
         franchise: "Pikmin",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Pokémon Rumble U",
-        imageUrl: "",
+        imageUrl: "games/2013/Pokemon Rumble U.jpg",
         franchise: "Pokémon",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Pokémon X",
-        imageUrl: "",
+        imageUrl: "games/2013/Pokemon X.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Pokémon Y",
-        imageUrl: "",
+        imageUrl: "games/2013/Pokemon Y.png",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Super Mario 3D World",
-        imageUrl: "",
+        imageUrl: "games/2013/Super Mario 3D World.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "The Legend of Zelda: A Link Between Worlds",
-        imageUrl: "",
+        imageUrl: "games/2013/A Link Between Worlds.jpg",
         franchise: "The Legend of Zelda",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "The Legend of Zelda: The Wind Waker HD",
-        imageUrl: "",
+        imageUrl: "games/2013/The Wind Waker HD.png",
         franchise: "The Legend of Zelda",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Tomodachi Life",
-        imageUrl: "",
+        imageUrl: "games/2013/Tomodachi Life.png",
         franchise: "Tomodachi",
         console: "3DS",
         releaseYear: "2013"
     },
     {
         title: "Wii Fit U",
-        imageUrl: "",
+        imageUrl: "games/2013/Wii Fit U.jpg",
         franchise: "Wii",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Wii Party U",
-        imageUrl: "",
+        imageUrl: "games/2013/Wii Party U.jpg",
         franchise: "Wii",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Wii Sports Club",
-        imageUrl: "",
+        imageUrl: "games/2013/Wii Sports Club.jpg",
         franchise: "Wii",
         console: "Wii U",
         releaseYear: "2013"
     },
     {
         title: "Captain Toad Treasure Tracker",
-        imageUrl: "",
+        imageUrl: "games/2014/Captain Toad Treasure Tracker.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2014"
     },
     {
         title: "Dedede's Drum Dash Deluxe",
-        imageUrl: "",
+        imageUrl: "games/2014/Dedede's Drum Dash.jpg",
         franchise: "Kirby",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Donkey Kong Country: Tropical Freeze",
-        imageUrl: "",
+        imageUrl: "games/2014/Tropical Freeze.jpg",
         franchise: "Donkey Kong",
         console: "Wii U",
         releaseYear: "2014"
     },
     {
         title: "Fossil Fighters Frontier",
-        imageUrl: "",
+        imageUrl: "games/2014/Fossil Fighters Frontier.jpg",
         franchise: "Fossil FIghters",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Hyrule Warriors",
-        imageUrl: "",
+        imageUrl: "games/2014/Hyrule Warriors.png",
         franchise: "The Legend of Zelda",
         console: "Wii U",
         releaseYear: "2014"
     },
     {
         title: "Kirby Fighters Deluxe",
-        imageUrl: "",
+        imageUrl: "games/2014/Kirby Fighters.jpg",
         franchise: "Kirby",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Kirby: Triple Deluxe",
-        imageUrl: "",
+        imageUrl: "games/2014/Triple Deluxe.jpg",
         franchise: "Kirby",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Mario Golf: World Tour",
-        imageUrl: "",
+        imageUrl: "games/2014/World Tour.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Mario Kart 8",
-        imageUrl: "",
+        imageUrl: "games/2014/Mario Kart 8.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2014"
     },
     {
         title: "Pokémon AlphaSapphire",
-        imageUrl: "",
+        imageUrl: "games/2014/Pokemon AlphaSapphire.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Pokémon Battle Trozei",
-        imageUrl: "",
+        imageUrl: "games/2014/Battle Trozei.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Pokémon OmegaRuby",
-        imageUrl: "",
+        imageUrl: "games/2014/Pokemon OmegaRuby.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Steel Diver: Sub Wars",
-        imageUrl: "",
+        imageUrl: "games/2014/Sub Wars.png",
         franchise: "Steel Diver",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Super Smash Bros. for Nintendo 3DS",
-        imageUrl: "",
+        imageUrl: "games/2014/Super Smash Bros. 3DS.jpg",
         franchise: "Super Smash Bros.",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Super Smash Bros. for Wii U",
-        imageUrl: "",
+        imageUrl: "games/2014/Super Smash Bros. Wii U.png",
         franchise: "Super Smash Bros.",
         console: "Wii U",
         releaseYear: "2014"
     },
     {
         title: "Yoshi's New Island",
-        imageUrl: "",
+        imageUrl: "games/2014/Yoshi's New Island.jpg",
         franchise: "Yoshi",
         console: "3DS",
         releaseYear: "2014"
     },
     {
         title: "Animal Crossing: Amiibo Festival",
-        imageUrl: "",
+        imageUrl: "games/2015/Amiibo Festival.jpg",
         franchise: "Animal Crossing",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Animal Crossing: Happy Home Designer",
-        imageUrl: "",
+        imageUrl: "games/2015/Happy Home Designer.png",
         franchise: "Animal Crossing",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Chibi-Robo: Zip Lash",
-        imageUrl: "",
+        imageUrl: "games/2015/Zip Lash.png",
         franchise: "Chibi-Robo",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Dr. Mario: Miracle Cure",
-        imageUrl: "",
+        imageUrl: "games/2015/Miracle Cure.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Fire Emblem Fates: Birthright",
-        imageUrl: "",
+        imageUrl: "games/2015/Fire Emblem Fates Birthright.jpg",
         franchise: "Fire Emblem",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Fire Emblem Fates: Conquest",
-        imageUrl: "",
+        imageUrl: "games/2015/Fire Emblem Fates Conquest.jpg",
         franchise: "Fire Emblem",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Fire Emblem Fates: Revelation",
-        imageUrl: "",
+        imageUrl: "games/2015/Fire Emblem Fates Revelation.png",
         franchise: "Fire Emblem",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Kirby and the Rainbow Curse",
-        imageUrl: "",
+        imageUrl: "games/2015/Kirby and the Rainbow Curse.jpg",
         franchise: "Kirby",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Mario & Luigi: Paper Jam",
-        imageUrl: "",
+        imageUrl: "games/2015/Paper Jam.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Mario Party 10",
-        imageUrl: "",
+        imageUrl: "games/2015/Mario Party 10.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Mario Tennis: Ultra Smash",
-        imageUrl: "",
+        imageUrl: "games/2015/Ultra Smash.png",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Mario vs. Donkey Kong: Tipping Stars",
-        imageUrl: "",
+        imageUrl: "games/2015/Tipping Stars 3DS.jpg",
         franchise: "Donkey Kong",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Mario vs. Donkey Kong: Tipping Stars",
-        imageUrl: "",
+        imageUrl: "games/2015/Tipping Stars.png",
         franchise: "Donkey Kong",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Pokémon Rumble World",
-        imageUrl: "",
+        imageUrl: "games/2015/Pokemon Rumble World.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Pokémon Shuffle",
-        imageUrl: "",
+        imageUrl: "games/2015/Pokemon Shuffle.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Pokémon Super Mystery Dungeon",
-        imageUrl: "",
+        imageUrl: "games/2015/Super Mystery Dungeon.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Pokkén Tournament",
-        imageUrl: "",
+        imageUrl: "games/2015/Pokkén Tournament.jpg",
         franchise: "Pokémon",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Rhythm Heaven Megamix",
-        imageUrl: "",
+        imageUrl: "games/2015/RH Megamix.jpg",
         franchise: "Rhythm Heaven",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Splatoon",
-        imageUrl: "",
+        imageUrl: "games/2015/Splatoon.png",
         franchise: "Splatoon",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Super Mario Maker",
-        imageUrl: "",
+        imageUrl: "games/2015/Super Mario Maker.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "The Legend of Zelda: Majora's Mask 3D",
-        imageUrl: "",
+        imageUrl: "games/2015/Majora's Mask 3D.jpg",
         franchise: "The Legend of Zelda",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "The Legend of Zelda: Tri Force Heroes",
-        imageUrl: "",
+        imageUrl: "games/2015/Tri Force Heroes.jpg",
         franchise: "The Legend of Zelda",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Tokyo Mirage Sessions #FE",
-        imageUrl: "",
+        imageUrl: "games/2015/Tokyo Mirage Sessions FE.jpg",
         franchise: "Fire Emblem",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Xenoblade Chronicles 3D",
-        imageUrl: "",
+        imageUrl: "games/2015/Xenoblade Chronicles 3D.png",
         franchise: "Xenoblade Chronicles",
         console: "3DS",
         releaseYear: "2015"
     },
     {
         title: "Xenoblade Chronicles X",
-        imageUrl: "",
+        imageUrl: "games/2015/Xenoblade X.jpg",
         franchise: "Xenoblade Chronicles",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Yoshi's Woolly World",
-        imageUrl: "",
+        imageUrl: "games/2015/Yoshi's Woolly World.jpg",
         franchise: "Yoshi",
         console: "Wii U",
         releaseYear: "2015"
     },
     {
         title: "Detective Pikachu",
-        imageUrl: "",
+        imageUrl: "games/2016/Detective Pikachu.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Hyrule Warriors Legends",
-        imageUrl: "",
+        imageUrl: "games/2016/Hyrule Warriors Legends.png",
         franchise: "The Legend of Zelda",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Kirby: Planet Robobot",
-        imageUrl: "",
+        imageUrl: "games/2016/Planet Robobot.jpg",
         franchise: "Kirby",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Mario Party: Star Rush",
-        imageUrl: "",
+        imageUrl: "games/2016/Star Rush.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Metroid Prime: Federation Force",
-        imageUrl: "",
+        imageUrl: "games/2016/Federation Force.jpg",
         franchise: "Metroid",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Miitopia",
-        imageUrl: "",
+        imageUrl: "games/2016/Miitopia.jpg",
         franchise: "Tomodachi",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Paper Mario: Color Splash",
-        imageUrl: "",
+        imageUrl: "games/2016/Color Splash.jpg",
         franchise: "Super Mario",
         console: "Wii U",
         releaseYear: "2016"
     },
     {
         title: "Pokémon Moon",
-        imageUrl: "",
+        imageUrl: "games/2016/Pokemon Moon.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Pokémon Sun",
-        imageUrl: "",
+        imageUrl: "games/2016/Pokemon Sun.jpg",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "Star Fox Guard",
-        imageUrl: "",
+        imageUrl: "games/2016/Star Fox Guard.png",
         franchise: "Star Fox",
         console: "Wii U",
         releaseYear: "2016"
     },
     {
         title: "Star Fox Zero",
-        imageUrl: "",
+        imageUrl: "games/2016/Star Fox Zero.jpg",
         franchise: "Star Fox",
         console: "Wii U",
         releaseYear: "2016"
     },
     {
         title: "Super Mario Maker for Nintendo 3DS",
-        imageUrl: "",
+        imageUrl: "games/2016/Super Mario Maker 3DS.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2016"
     },
     {
         title: "The Legend of Zelda: Twilight Princess HD",
-        imageUrl: "",
+        imageUrl: "games/2016/Twilight Princess HD.jpg",
         franchise: "The Legend of Zelda",
         console: "Wii U",
         releaseYear: "2016"
     },
     {
         title: "1-2-Switch",
-        imageUrl: "",
+        imageUrl: "games/2017/One-Two-Switch.png",
         franchise: "1-2-Switch",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Arms",
-        imageUrl: "",
+        imageUrl: "games/2017/Arms.jpg",
         franchise: "Arms",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Fire Emblem Echoes: Shadows of Valentia",
-        imageUrl: "",
+        imageUrl: "games/2017/Fire Emblem Echoes.jpg",
         franchise: "Fire Emblem",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Fire Emblem Warriors",
-        imageUrl: "",
+        imageUrl: "games/2017/FE Warriors 3DS.jpg",
         franchise: "Fire Emblem",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Fire Emblem Warriors",
-        imageUrl: "",
+        imageUrl: "games/2017/FE Warriors.jpg",
         franchise: "Fire Emblem",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Mario & Luigi: Superstar Saga + Bowser's Minions",
-        imageUrl: "",
+        imageUrl: "games/2017/Bowser's Minions.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Mario Kart 8 Deluxe",
-        imageUrl: "",
+        imageUrl: "games/2017/Mario Kart 8 Deluxe.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Mario Party: The Top 100",
-        imageUrl: "",
+        imageUrl: "games/2017/The Top 100.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Mario Sports Superstars",
-        imageUrl: "",
+        imageUrl: "games/2017/Mario Sports Superstars.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Metroid: Samus Returns",
-        imageUrl: "",
+        imageUrl: "games/2017/Samus Returns.jpg",
         franchise: "Metroid",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Pokémon UltraMoon",
-        imageUrl: "",
+        imageUrl: "games/2017/Pokemon UltraMoon.png",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Pokémon UltraSun",
-        imageUrl: "",
+        imageUrl: "games/2017/Pokemon UltraSun.png",
         franchise: "Pokémon",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Pokkén Tournament DX",
-        imageUrl: "",
+        imageUrl: "games/2017/Pokkén Tournament DX.jpg",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Poochy & Yoshi's Woolly World",
-        imageUrl: "",
+        imageUrl: "games/2017/Poochy & Yoshi's Woolly World.jpg",
         franchise: "Yoshi",
         console: "3DS",
         releaseYear: "2017"
     },
     {
         title: "Splatoon 2",
-        imageUrl: "",
+        imageUrl: "games/2017/Splatoon 2.jpg",
         franchise: "Splatoon",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Star Fox 2",
-        imageUrl: "",
+        imageUrl: "games/2017/Star Fox 2.png",
         franchise: "Star Fox",
         console: "SNES",
         releaseYear: "2017"
     },
     {
         title: "Super Mario Odyssey",
-        imageUrl: "",
+        imageUrl: "games/2017/Super Mario Odyssey.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "The Legend of Zelda: Breath of the Wild",
-        imageUrl: "",
+        imageUrl: "games/2017/Breath of the Wild.jpg",
         franchise: "The Legend of Zelda",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "The Legend of Zelda: Breath of the Wild",
-        imageUrl: "",
+        imageUrl: "games/2017/Breath of the Wild Wii U.jpg",
         franchise: "The Legend of Zelda",
         console: "Wii U",
         releaseYear: "2017"
     },
     {
         title: "Xenoblade Chronicles 2",
-        imageUrl: "",
+        imageUrl: "games/2017/Xenoblade Chronicles 2.jpg",
         franchise: "Xenoblade Chronicles",
         console: "Switch",
         releaseYear: "2017"
     },
     {
         title: "Captain Toad Treasure Tracker",
-        imageUrl: "",
+        imageUrl: "games/2018/Captain Toad Treasure Tracker 3DS.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2018"
     },
     {
         title: "Captain Toad Treasure Tracker",
-        imageUrl: "",
+        imageUrl: "games/2018/Captain Toad Treasure Tracker Switch.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Dillon's Dead-Heat Breakers",
-        imageUrl: "",
+        imageUrl: "games/2018/Dillon's Dead-Heat Breakers.png",
         franchise: "Dillon's Rolling Western",
         console: "3DS",
         releaseYear: "2018"
     },
     {
         title: "Donkey Kong Country: Tropical Freeze",
-        imageUrl: "",
+        imageUrl: "games/2018/Tropical Freeze Switch.jpg",
         franchise: "Donkey Kong",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Hyrule Warriors Definitive Edition",
-        imageUrl: "",
+        imageUrl: "games/2018/Hyrule Warriors Definitive Edition.jpg",
         franchise: "The Legend of Zelda",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Kirby: Star Allies",
-        imageUrl: "",
+        imageUrl: "games/2018/Kirby Star Allies.jpg",
         franchise: "Kirby",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Luigi's Mansion",
-        imageUrl: "",
+        imageUrl: "games/2018/Luigi's Mansion 3DS.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2018"
     },
     {
         title: "Mario Tennis Aces",
-        imageUrl: "",
+        imageUrl: "games/2018/Aces.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Pokémon Quest",
-        imageUrl: "",
+        imageUrl: "games/2018/Pokemon Quest.jpg",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Pokémon: Let's Go, Eevee!",
-        imageUrl: "",
+        imageUrl: "games/2018/Let's Go, Eevee.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Pokémon: Let's Go, Pikachu!",
-        imageUrl: "",
+        imageUrl: "games/2018/Let's Go, Pikachu!.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Super Mario Party",
-        imageUrl: "",
+        imageUrl: "games/2018/Super Mario Party.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Super Smash Bros. Ultimate",
-        imageUrl: "",
+        imageUrl: "games/2018/Super Smash Bros. Ultimate.jpg",
         franchise: "Super Smash Bros.",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "WarioWare Gold",
-        imageUrl: "",
+        imageUrl: "games/2018/WarioWare Gold.jpg",
         franchise: "Wario",
         console: "3DS",
         releaseYear: "2018"
     },
     {
         title: "Xenoblade Chronicles 2: Torna - The Golden Country",
-        imageUrl: "",
+        imageUrl: "games/2018/Torna The Golden Country.jpg",
         franchise: "Xenoblade Chronicles",
         console: "Switch",
         releaseYear: "2018"
     },
     {
         title: "Fire Emblem: Three Houses",
-        imageUrl: "",
+        imageUrl: "games/2019/Three Houses.jpg",
         franchise: "Fire Emblem",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Kirby's Extra Epic Yarn",
-        imageUrl: "",
+        imageUrl: "games/2019/Extra Epic Yarn.jpeg",
         franchise: "Kirby",
         console: "3DS",
         releaseYear: "2019"
     },
     {
         title: "Luigi's Mansion 3",
-        imageUrl: "",
+        imageUrl: "games/2019/Luigi's Mansion 3.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
-        imageUrl: "",
+        imageUrl: "games/2019/Bowser Jr.'s Journey.jpg",
         franchise: "Super Mario",
         console: "3DS",
         releaseYear: "2019"
     },
     {
         title: "New Super Mario Bros. U Deluxe",
-        imageUrl: "",
+        imageUrl: "games/2019/NSMBU Deluxe.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Pokémon Shield",
-        imageUrl: "",
+        imageUrl: "games/2019/Pokemon Shield.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Pokémon Sword",
-        imageUrl: "",
+        imageUrl: "games/2019/Pokemon Sword.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Ring Fit Adventure",
-        imageUrl: "",
+        imageUrl: "games/2019/Ring Fit.PNG",
         franchise: "Ring Fit Adventure",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Super Mario Maker 2",
-        imageUrl: "",
+        imageUrl: "games/2019/Super Mario Maker 2.png",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "The Legend of Zelda: Link's Awakening",
-        imageUrl: "",
+        imageUrl: "games/2019/Link's Awakening Switch.png",
         franchise: "The Legend of Zelda",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Yoshi's Crafted World",
-        imageUrl: "",
+        imageUrl: "games/2019/Crafted World.png",
         franchise: "Yoshi",
         console: "Switch",
         releaseYear: "2019"
     },
     {
         title: "Animal Crossing: New Horizons",
-        imageUrl: "",
+        imageUrl: "games/2020/New Horizons.jpg",
         franchise: "Animal Crossing",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Dr. Kawashima's Brain Training for Nintendo Switch",
-        imageUrl: "",
+        imageUrl: "games/2020/Brain Training Switch.JPG",
         franchise: "Brain Age",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Hyrule Warriors: Age of Calamity",
-        imageUrl: "",
+        imageUrl: "games/2020/Age of Calamity.jpg",
         franchise: "The Legend of Zelda",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Kirby Fighters 2",
-        imageUrl: "",
+        imageUrl: "games/2020/Kirby Fighters 2.jpg",
         franchise: "Kirby",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Mario Kart Live: Home Circuit",
-        imageUrl: "",
+        imageUrl: "games/2020/Mario Kart Live.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Paper Mario: The Origami King",
-        imageUrl: "",
+        imageUrl: "games/2020/The Origami King.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Pikmin 3 Deluxe",
-        imageUrl: "",
+        imageUrl: "games/2020/Pikmin 3 Deluxe.jpg",
         franchise: "Pikmin",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Pokémon Café Mix",
-        imageUrl: "",
+        imageUrl: "games/2020/Cafe Mix.jpg",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Pokémon Mystery Dungeon: Rescue Team DX",
-        imageUrl: "",
+        imageUrl: "games/2020/Rescue Team DX.PNG",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Super Mario 3D All-Stars",
-        imageUrl: "",
+        imageUrl: "games/2020/Super Mario 3D All-Stars.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Tokyo Mirage Sessions #FE Encore",
-        imageUrl: "",
+        imageUrl: "games/2020/Tokyo Mirage Sessions FE Encore.jpg",
         franchise: "Fire Emblem",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Xenoblade Chronicles Definitive Edition",
-        imageUrl: "",
+        imageUrl: "games/2020/Xenoblade Chronicles DE.jpg",
         franchise: "Xenoblade Chronicles",
         console: "Switch",
         releaseYear: "2020"
     },
     {
         title: "Game Builder Garage",
-        imageUrl: "",
+        imageUrl: "games/2021/Game Builder Garage.jpg",
         franchise: "Game Builder Garage",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "Mario Golf: Super Rush",
-        imageUrl: "",
+        imageUrl: "games/2021/Super Rush.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "Miitopia",
-        imageUrl: "",
+        imageUrl: "games/2021/Miitopia Switch.jpg",
         franchise: "Tomodachi",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "New Pokémon Snap",
-        imageUrl: "",
+        imageUrl: "games/2021/New Pokemon Snap.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "Pokémon BrilliantDiamond",
-        imageUrl: "",
+        imageUrl: "games/2021/Pokemon BrilliantDiamond.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "Pokémon ShiningPearl",
-        imageUrl: "",
+        imageUrl: "games/2021/Pokemon ShiningPearl.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "Super Mario 3D World + Bowser's Fury",
-        imageUrl: "",
+        imageUrl: "games/2021/Bowser's Fury.jpg",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "The Legend of Zelda: Skyward Sword HD",
-        imageUrl: "",
+        imageUrl: "games/2021/Skyward Sword HD.jpg",
         franchise: "The Legend of Zelda",
         console: "Switch",
         releaseYear: "2021"
     },
     {
         title: "Pokémon Legends: Arceus",
-        imageUrl: "",
+        imageUrl: "games/2022/Pokemon Legends Arceus.png",
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2022"
     },
     {
         title: "Splatoon 3",
-        imageUrl: "",
+        imageUrl: "games/2022/Splatoon 3.jpg",
         franchise: "Splatoon",
         console: "Switch",
         releaseYear: "2022"
