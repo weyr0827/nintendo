@@ -653,6 +653,13 @@ let gameList = [
         releaseYear: "1998"
     },
     {
+        title: "Pokémon Trading Card Game",
+        imageUrl: "games/1998/PKMN TCG.jpg",
+        franchise: "Pokémon",
+        console: "GBC",
+        releaseYear: "1998"
+    },
+    {
         title: "Pokémon Yellow Version",
         imageUrl: "games/1998/Pokemon Yellow.jpg",
         franchise: "Pokémon",
@@ -919,10 +926,24 @@ let gameList = [
         releaseYear: "2001"
     },
     {
+        title: "Kuru Kuru Kururin",
+        imageUrl: "games/2001/Kuru Kuru Kururin.jpg",
+        franchise: "Kururin",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
         title: "Luigi's Mansion",
         imageUrl: "games/2001/Luigi's Mansion.jpg",
         franchise: "Super Mario",
         console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "Magical Vacation",
+        imageUrl: "games/2001/Magical Vacation.png",
+        franchise: "Magical Starsign",
+        console: "GBA",
         releaseYear: "2001"
     },
     {
@@ -937,6 +958,13 @@ let gameList = [
         imageUrl: "games/2001/Pikmin.jpg",
         franchise: "Pikmin",
         console: "GCN",
+        releaseYear: "2001"
+    },
+    {
+        title: "Pokémon Card GB2: Here Comes Team GR!",
+        imageUrl: "games/2001/PKMN TCG 2.jpg",
+        franchise: "Pokémon",
+        console: "GBC",
         releaseYear: "2001"
     },
     {
@@ -1006,6 +1034,13 @@ let gameList = [
         title: "Kirby: Nightmare in Dream Land",
         imageUrl: "games/2002/Nightmare in Dream Land.jpg",
         franchise: "Kirby",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
+        title: "Kururin Paradise",
+        imageUrl: "games/2002/Kururin Paradise.jpeg",
+        franchise: "Kururin",
         console: "GBA",
         releaseYear: "2002"
     },
@@ -1178,6 +1213,20 @@ let gameList = [
         releaseYear: "2003"
     },
     {
+        title: "Mother 1 + 2",
+        imageUrl: "games/2003/Mother 1 & 2.png",
+        franchise: "EarthBound",
+        console: "GBA",
+        releaseYear: "2003"
+    },
+    {
+        title: "Pokémon Channel",
+        imageUrl: "games/2003/Pokemon Channel.png",
+        franchise: "Pokémon",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
         title: "Pokémon Colosseum",
         imageUrl: "games/2003/Pokémon Colosseum.jpg",
         franchise: "Pokémon",
@@ -1201,6 +1250,13 @@ let gameList = [
     {
         title: "The Legend of Zelda Collector's Edition",
         imageUrl: "games/2003/The Legend of Zelda Collector's Edition.png",
+        franchise: "The Legend of Zelda",
+        console: "GCN",
+        releaseYear: "2003"
+    },
+    {
+        title: "The Legend of Zelda: Ocarina of Time Master Quest",
+        imageUrl: "games/2003/Ocarina of Time Master Quest.jpg",
         franchise: "The Legend of Zelda",
         console: "GCN",
         releaseYear: "2003"
@@ -1280,6 +1336,13 @@ let gameList = [
         imageUrl: "games/2004/Kirby & The Amazing Mirror.jpg",
         franchise: "Kirby",
         console: "GBA",
+        releaseYear: "2004"
+    },
+    {
+        title: "Kururin Squash!",
+        imageUrl: "games/2004/Kururin Squash.jpg",
+        franchise: "Kururin",
+        console: "GCN",
         releaseYear: "2004"
     },
     {
@@ -1654,6 +1717,13 @@ let gameList = [
         releaseYear: "2006"
     },
     {
+        title: "Magical Starsign",
+        imageUrl: "games/2006/Magical Starsign.jpg",
+        franchise: "Magical Starsign",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
         title: "Mario Hoops 3 on 3",
         imageUrl: "games/2006/Mario Hoops 3 on 3.jpg",
         franchise: "Super Mario",
@@ -1664,6 +1734,13 @@ let gameList = [
         title: "Mario vs. Donkey Kong 2: March of the Minis",
         imageUrl: "games/2006/March of the Minis.jpg",
         franchise: "Donkey Kong",
+        console: "DS",
+        releaseYear: "2006"
+    },
+    {
+        title: "Master of Illusion",
+        imageUrl: "games/2006/Master of Illusion.jpg",
+        franchise: "Master of Illusion",
         console: "DS",
         releaseYear: "2006"
     },
@@ -1941,6 +2018,13 @@ let gameList = [
         releaseYear: "2008"
     },
     {
+        title: "Captain Rainbow",
+        imageUrl: "games/2008/Captain Rainbow.jpg",
+        franchise: "Captain Rainbow",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
         title: "Fire Emblem: Shadow Dragon",
         imageUrl: "games/2008/Shadow Dragon.jpg",
         franchise: "Fire Emblem",
@@ -1983,6 +2067,27 @@ let gameList = [
         releaseYear: "2008"
     },
     {
+        title: "Master of Illusion Express: Deep Psyche",
+        imageUrl: "games/2008/Deep Psyche.jpg",
+        franchise: "Master of Illusion",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Master of Illusion Express: Funny Face",
+        imageUrl: "games/2008/Funny Face.png",
+        franchise: "Master of Illusion",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Master of Illusion Express: Shuffle Games",
+        imageUrl: "games/2008/Shuffle Games.jpg",
+        franchise: "Master of Illusion",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
         title: "New Play Control! Donkey Kong Jungle Beat",
         imageUrl: "games/2008/NPC Donkey Kong Jungle Beat.jpg",
         franchise: "Donkey Kong",
@@ -2014,6 +2119,13 @@ let gameList = [
         title: "Rhythm Heaven",
         imageUrl: "games/2008/Rhythm Heaven.jpg",
         franchise: "Rhythm Heaven",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Style Savvy",
+        imageUrl: "games/2008/Style Savvy.jpg",
+        franchise: "Style Savvy",
         console: "DS",
         releaseYear: "2008"
     },
@@ -2057,6 +2169,20 @@ let gameList = [
         imageUrl: "games/2009/Another Code R.jpg",
         franchise: "Trace Memory",
         console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "Art Academy: First Semester",
+        imageUrl: "games/2009/First Semester.jpg",
+        franchise: "Art Academy",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Art Academy: Second Semester",
+        imageUrl: "games/2009/Second Semester.jpg",
+        franchise: "Art Academy",
+        console: "DS",
         releaseYear: "2009"
     },
     {
@@ -2105,6 +2231,27 @@ let gameList = [
         title: "Mario vs. Donkey Kong: Mini-Land Mayhem",
         imageUrl: "games/2009/Mini-Land Mayhem.jpg",
         franchise: "Donkey Kong",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Master of Illusion Express: Matchmaker",
+        imageUrl: "games/2009/Matchmaker.png",
+        franchise: "Master of Illusion",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Master of Illusion Express: Mind Probe",
+        imageUrl: "games/2009/Mind Probe.png",
+        franchise: "Master of Illusion",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "Master of Illusion Express: Psychic Camera",
+        imageUrl: "games/2009/Psychic Camera.png",
+        franchise: "Master of Illusion",
         console: "DS",
         releaseYear: "2009"
     },
@@ -2270,6 +2417,13 @@ let gameList = [
         releaseYear: "2009"
     },
     {
+        title: "Art Academy",
+        imageUrl: "games/2010/Art Academy.jpg",
+        franchise: "Art Academy",
+        console: "DS",
+        releaseYear: "2010"
+    },
+    {
         title: "Donkey Kong Country Returns",
         imageUrl: "games/2010/Donkey Kong Country Returns.png",
         franchise: "Donkey Kong",
@@ -2417,6 +2571,13 @@ let gameList = [
         releaseYear: "2011"
     },
     {
+        title: "Pushmo",
+        imageUrl: "games/2011/Pushmo.jpg",
+        franchise: "Pushmo",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
         title: "Star Fox 64 3D",
         imageUrl: "games/2011/Star Fox 64 3D.jpg",
         franchise: "Star Fox",
@@ -2466,9 +2627,23 @@ let gameList = [
         releaseYear: "2012"
     },
     {
+        title: "Art Academy: Lessons for Everyone!",
+        imageUrl: "games/2012/Lessons for Everyone.jpg",
+        franchise: "Art Academy",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
         title: "Brain Age: Concentration Training",
         imageUrl: "games/2012/Concentration Training.jpg",
         franchise: "Brain Age",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Crashmo",
+        imageUrl: "games/2012/Crashmo.jpg",
+        franchise: "Pushmo",
         console: "3DS",
         releaseYear: "2012"
     },
@@ -2576,6 +2751,20 @@ let gameList = [
         franchise: "Pokémon",
         console: "DS",
         releaseYear: "2012"
+    },
+    {
+        title: "Style Savvy: Trendsetters",
+        imageUrl: "games/2012/Trendsetters.jpg",
+        franchise: "Style Savvy",
+        console: "3DS",
+        releaseYear: "2012"
+    },
+    {
+        title: "Art Academy: Sketchpad",
+        imageUrl: "games/2013/Sketchpad.png",
+        franchise: "Art Academy",
+        console: "Wii U",
+        releaseYear: "2013"
     },
     {
         title: "Chibi-Robo: Photo Finder",
@@ -2802,6 +2991,13 @@ let gameList = [
         releaseYear: "2014"
     },
     {
+        title: "Pokémon Art Academy",
+        imageUrl: "games/2014/Pokemon Art Academy.png",
+        franchise: "Pokémon",
+        console: "3DS",
+        releaseYear: "2014"
+    },
+    {
         title: "Pokémon Battle Trozei",
         imageUrl: "games/2014/Battle Trozei.jpg",
         franchise: "Pokémon",
@@ -2813,6 +3009,13 @@ let gameList = [
         imageUrl: "games/2014/Pokemon OmegaRuby.jpg",
         franchise: "Pokémon",
         console: "3DS",
+        releaseYear: "2014"
+    },
+    {
+        title: "Pushmo World",
+        imageUrl: "games/2014/Pushmo World.jpg",
+        franchise: "Pushmo",
+        console: "Wii U",
         releaseYear: "2014"
     },
     {
@@ -2854,6 +3057,20 @@ let gameList = [
         title: "Animal Crossing: Happy Home Designer",
         imageUrl: "games/2015/Happy Home Designer.png",
         franchise: "Animal Crossing",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Art Academy: Home Studio",
+        imageUrl: "games/2015/Home Studio.png",
+        franchise: "Art Academy",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "BoxBoy!",
+        imageUrl: "games/2015/BoxBoy!.jpg",
+        franchise: "BoxBoy!",
         console: "3DS",
         releaseYear: "2015"
     },
@@ -2977,6 +3194,20 @@ let gameList = [
         releaseYear: "2015"
     },
     {
+        title: "Stretchmo",
+        imageUrl: "games/2015/Stretchmo.jpg",
+        franchise: "Pushmo",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
+        title: "Style Savvy: Fashion Forward",
+        imageUrl: "games/2015/Fashion Forward.jpg",
+        franchise: "Style Savvy",
+        console: "3DS",
+        releaseYear: "2015"
+    },
+    {
         title: "Super Mario Maker",
         imageUrl: "games/2015/Super Mario Maker.jpg",
         franchise: "Super Mario",
@@ -3024,6 +3255,13 @@ let gameList = [
         franchise: "Yoshi",
         console: "Wii U",
         releaseYear: "2015"
+    },
+    {
+        title: "BoxBoxBoy!",
+        imageUrl: "games/2016/BoxBoxBoy!.jpg",
+        franchise: "BoxBoy!",
+        console: "3DS",
+        releaseYear: "2016"
     },
     {
         title: "Detective Pikachu",
@@ -3131,6 +3369,13 @@ let gameList = [
         releaseYear: "2017"
     },
     {
+        title: "Bye-Bye BoxBoy!",
+        imageUrl: "games/2017/Bye-Bye BoxBoy!.jpg",
+        franchise: "BoxBoy!",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
         title: "Fire Emblem Echoes: Shadows of Valentia",
         imageUrl: "games/2017/Fire Emblem Echoes.jpg",
         franchise: "Fire Emblem",
@@ -3233,6 +3478,13 @@ let gameList = [
         imageUrl: "games/2017/Star Fox 2.png",
         franchise: "Star Fox",
         console: "SNES",
+        releaseYear: "2017"
+    },
+    {
+        title: "Style Savvy: Styling Star",
+        imageUrl: "games/2017/Styling Star.png",
+        franchise: "Style Savvy",
+        console: "3DS",
         releaseYear: "2017"
     },
     {
@@ -3367,6 +3619,13 @@ let gameList = [
         franchise: "Xenoblade Chronicles",
         console: "Switch",
         releaseYear: "2018"
+    },
+    {
+        title: "BoxBoy! + BoxGirl!",
+        imageUrl: "games/2019/BoxBoy! BoxGirl!.jpg",
+        franchise: "BoxBoy!",
+        console: "Switch",
+        releaseYear: "2019"
     },
     {
         title: "Fire Emblem: Three Houses",
