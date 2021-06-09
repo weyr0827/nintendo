@@ -1983,6 +1983,20 @@ let gameList = [
         releaseYear: "2008"
     },
     {
+        title: "New Play Control! Donkey Kong Jungle Beat",
+        imageUrl: "games/2008/NPC Donkey Kong Jungle Beat.jpg",
+        franchise: "Donkey Kong",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
+        title: "New Play Control! Pikmin",
+        imageUrl: "games/2008/NPC Pikmin.jpg",
+        franchise: "Pikmin",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
         title: "Pokémon Platinum Version",
         imageUrl: "games/2008/Pokemon Platinum.jpg",
         franchise: "Pokémon",
@@ -2098,6 +2112,41 @@ let gameList = [
         title: "Metroid Prime Trilogy",
         imageUrl: "games/2009/Metroid Prime Trilogy.jpg",
         franchise: "Metroid",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "New Play Control! Chibi-Robo!",
+        imageUrl: "games/2009/NPC Chibi-Robo.jpg",
+        franchise: "Chibi-Robo",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "New Play Control! Mario Power Tennis",
+        imageUrl: "games/2009/NPC Mario Power Tennis.jpg",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "New Play Control! Metroid Prime",
+        imageUrl: "games/2009/Metroid Prime.jpg",
+        franchise: "Metroid",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "New Play Control! Metroid Prime 2: Echoes",
+        imageUrl: "games/2009/Metroid Prime 2 Echoes.jpg",
+        franchise: "Metroid",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
+        title: "New Play Control! Pikmin 2",
+        imageUrl: "games/2009/Pikmin 2.jpg",
+        franchise: "Pikmin",
         console: "Wii",
         releaseYear: "2009"
     },
