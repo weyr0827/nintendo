@@ -2131,21 +2131,21 @@ let gameList = [
     },
     {
         title: "New Play Control! Metroid Prime",
-        imageUrl: "games/2009/Metroid Prime.jpg",
+        imageUrl: "games/2009/NPC Metroid Prime.jpg",
         franchise: "Metroid",
         console: "Wii",
         releaseYear: "2009"
     },
     {
         title: "New Play Control! Metroid Prime 2: Echoes",
-        imageUrl: "games/2009/Metroid Prime 2 Echoes.jpg",
+        imageUrl: "games/2009/NPC Metroid Prime 2 Echoes.jpg",
         franchise: "Metroid",
         console: "Wii",
         releaseYear: "2009"
     },
     {
         title: "New Play Control! Pikmin 2",
-        imageUrl: "games/2009/Pikmin 2.jpg",
+        imageUrl: "games/2009/NPC Pikmin 2.jpg",
         franchise: "Pikmin",
         console: "Wii",
         releaseYear: "2009"
