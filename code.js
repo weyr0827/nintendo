@@ -2151,6 +2151,13 @@ let gameList = [
         releaseYear: "2008"
     },
     {
+        title: "WarioWare: Snapped!",
+        imageUrl: "games/2008/WarioWare Snapped.png",
+        franchise: "Wario",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
         title: "Wii Chess",
         imageUrl: "games/2008/Wii Chess.png",
         franchise: "Wii",
