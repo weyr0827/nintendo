@@ -1367,6 +1367,13 @@ let gameList = [
         releaseYear: "2004"
     },
     {
+        title: "Mario Pinball Land",
+        imageUrl: "games/2004/Mario Pinball Land.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2004"
+    },
+    {
         title: "Mario Power Tennis",
         imageUrl: "games/2004/Power Tennis.jpg",
         franchise: "Super Mario",
