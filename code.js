@@ -1010,6 +1010,13 @@ let gameList = [
         releaseYear: "2001"
     },
     {
+        title: "Custom Robo GX",
+        imageUrl: "games/2002/Custom Robo GX.png",
+        franchise: "Custom Robo",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
         title: "Doshin the Giant",
         imageUrl: "games/2002/Doshin the Giant.jpg",
         franchise: "Doshin the Giant",
@@ -2417,6 +2424,13 @@ let gameList = [
         releaseYear: "2009"
     },
     {
+        title: "Welcome Home, Chibi-Robo!",
+        imageUrl: "games/2009/Welcome Home, Chibi-Robo!.jpg",
+        franchise: "Chibi-Robo",
+        console: "DS",
+        releaseYear: "2009"
+    },
+    {
         title: "Wii Fit Plus",
         imageUrl: "games/2009/Wii Fit Plus.jpg",
         franchise: "Wii",
@@ -3642,6 +3656,13 @@ let gameList = [
         releaseYear: "2019"
     },
     {
+        title: "Dr. Kawashima's Brain Training for Nintendo Switch",
+        imageUrl: "games/2019/Brain Training Switch.JPG",
+        franchise: "Brain Age",
+        console: "Switch",
+        releaseYear: "2019"
+    },
+    {
         title: "Fire Emblem: Three Houses",
         imageUrl: "games/2019/Three Houses.jpg",
         franchise: "Fire Emblem",
@@ -3722,13 +3743,6 @@ let gameList = [
         title: "Animal Crossing: New Horizons",
         imageUrl: "games/2020/New Horizons.jpg",
         franchise: "Animal Crossing",
-        console: "Switch",
-        releaseYear: "2020"
-    },
-    {
-        title: "Dr. Kawashima's Brain Training for Nintendo Switch",
-        imageUrl: "games/2020/Brain Training Switch.JPG",
-        franchise: "Brain Age",
         console: "Switch",
         releaseYear: "2020"
     },
