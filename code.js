@@ -1640,6 +1640,13 @@ let gameList = [
         releaseYear: "2005"
     },
     {
+        title: "Nintendogs: Best Friends",
+        imageUrl: "games/2005/Nintendogs Best Friends.png",
+        franchise: "Nintendogs",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
         title: "Nintendogs: Chiuahua and Friends",
         imageUrl: "games/2005/Chiuahua.jpg",
         franchise: "Nintendogs",
