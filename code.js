@@ -3831,6 +3831,13 @@ let gameList = [
         releaseYear: "2020"
     },
     {
+        title: "Advance Wars 1 + 2: Reboot Camp",
+        imageUrl: "games/2021/Reboot Camp.jpg",
+        franchise: "Advance Wars",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
         title: "Game Builder Garage",
         imageUrl: "games/2021/Game Builder Garage.jpg",
         franchise: "Game Builder Garage",
@@ -3841,6 +3848,20 @@ let gameList = [
         title: "Mario Golf: Super Rush",
         imageUrl: "games/2021/Super Rush.jpg",
         franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Mario Party Superstars",
+        imageUrl: "games/2021/Mario Party Superstars.jpg",
+        franchise: "Super Mario",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
+        title: "Metroid Dread",
+        imageUrl: "games/2021/Metroid Dread.png",
+        franchise: "Metroid",
         console: "Switch",
         releaseYear: "2021"
     },
@@ -3887,6 +3908,13 @@ let gameList = [
         releaseYear: "2021"
     },
     {
+        title: "WarioWare: Get It Together!",
+        imageUrl: "games/2021/Get It Together!.jpg",
+        franchise: "Wario",
+        console: "Switch",
+        releaseYear: "2021"
+    },
+    {
         title: "Pokémon Legends: Arceus",
         imageUrl: "games/2022/Pokemon Legends Arceus.png",
         franchise: "Pokémon",
@@ -3897,6 +3925,13 @@ let gameList = [
         title: "Splatoon 3",
         imageUrl: "games/2022/Splatoon 3.jpg",
         franchise: "Splatoon",
+        console: "Switch",
+        releaseYear: "2022"
+    },
+    {
+        title: "The Legend of Zelda: Breath of the Wild 2",
+        imageUrl: "games/2022/Breath of the Wild 2.jpg",
+        franchise: "The Legend of Zelda",
         console: "Switch",
         releaseYear: "2022"
     }
