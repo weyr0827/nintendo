@@ -1038,6 +1038,13 @@ let gameList = [
         releaseYear: "2002"
     },
     {
+        title: "Golden Sun: The Lost Age",
+        imageUrl: "games/2002/The Lost Age.jpg",
+        franchise: "Golden Sun",
+        console: "GBA",
+        releaseYear: "2002"
+    },
+    {
         title: "Kirby: Nightmare in Dream Land",
         imageUrl: "games/2002/Nightmare in Dream Land.jpg",
         franchise: "Kirby",
@@ -1174,13 +1181,6 @@ let gameList = [
         title: "Fire Emblem: The Blazing Blade",
         imageUrl: "games/2003/The Blazing Blade.jpg",
         franchise: "Fire Emblem",
-        console: "GBA",
-        releaseYear: "2003"
-    },
-    {
-        title: "Golden Sun: The Lost Age",
-        imageUrl: "games/2003/The Lost Age.jpg",
-        franchise: "Golden Sun",
         console: "GBA",
         releaseYear: "2003"
     },
@@ -2235,13 +2235,6 @@ let gameList = [
         releaseYear: "2009"
     },
     {
-        title: "Golden Sun: Dark Dawn",
-        imageUrl: "games/2009/Dark Dawn.jpg",
-        franchise: "Golden Sun",
-        console: "DS",
-        releaseYear: "2009"
-    },
-    {
         title: "Kirby: Mass Attack",
         imageUrl: "games/2009/Mass Attack.jpg",
         franchise: "Kirby",
@@ -2469,6 +2462,13 @@ let gameList = [
         title: "Fossil Fighters Champions",
         imageUrl: "games/2010/Fossil Fighters Champions.jpg",
         franchise: "Fossil Fighters",
+        console: "DS",
+        releaseYear: "2010"
+    },
+    {
+        title: "Golden Sun: Dark Dawn",
+        imageUrl: "games/2010/Dark Dawn.jpg",
+        franchise: "Golden Sun",
         console: "DS",
         releaseYear: "2010"
     },
