@@ -2613,6 +2613,13 @@ let gameList = [
         releaseYear: "2011"
     },
     {
+        title: "Nintendogs + Cats: Shiba Inu and New Friends",
+        imageUrl: "games/2011/New Shiba Inu.jpg",
+        franchise: "Nintendogs",
+        console: "3DS",
+        releaseYear: "2011"
+    },
+    {
         title: "Nintendogs + Cats: Toy Poodle and New Friends",
         imageUrl: "games/2011/Toy Poodle.jpg",
         franchise: "Nintendogs",
