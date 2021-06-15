@@ -2249,13 +2249,6 @@ let gameList = [
         releaseYear: "2009"
     },
     {
-        title: "Mario vs. Donkey Kong: Mini-Land Mayhem",
-        imageUrl: "games/2009/Mini-Land Mayhem.jpg",
-        franchise: "Donkey Kong",
-        console: "DS",
-        releaseYear: "2009"
-    },
-    {
         title: "Mario vs. Donkey Kong: Minis March Again",
         imageUrl: "games/2009/Minis March Again.png",
         franchise: "Donkey Kong",
@@ -2484,6 +2477,13 @@ let gameList = [
         imageUrl: "games/2010/Mario Sports Mix.jpg",
         franchise: "Super Mario",
         console: "Wii",
+        releaseYear: "2010"
+    },
+    {
+        title: "Mario vs. Donkey Kong: Mini-Land Mayhem",
+        imageUrl: "games/2009/Mini-Land Mayhem.jpg",
+        franchise: "Donkey Kong",
+        console: "DS",
         releaseYear: "2010"
     },
     {
