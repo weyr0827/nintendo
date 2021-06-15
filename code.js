@@ -352,6 +352,13 @@ let gameList = [
         releaseYear: "1993"
     },
     {
+        title: "Kirby's Pinball Land",
+        imageUrl: "games/1993/Kirby's Pinball Land.png",
+        franchise: "Kirby",
+        console: "GB",
+        releaseYear: "1993"
+    },
+    {
         title: "Star Fox",
         imageUrl: "games/1993/Star Fox.jpg",
         franchise: "Star Fox",
@@ -730,6 +737,13 @@ let gameList = [
         releaseYear: "1999"
     },
     {
+        title: "Kirby's Star Stacker",
+        imageUrl: "games/1999/Star Stacker SNES.jpg",
+        franchise: "Kirby",
+        console: "SNES",
+        releaseYear: "1999"
+    },
+    {
         title: "Mario Golf",
         imageUrl: "games/1999/Mario Golf.jpg",
         franchise: "Super Mario",
@@ -818,6 +832,13 @@ let gameList = [
         imageUrl: "games/2000/The Crystal Shards.jpg",
         franchise: "Kirby",
         console: "N64",
+        releaseYear: "2000"
+    },
+    {
+        title: "Kirby Tilt 'n' Tumble",
+        imageUrl: "games/2000/Tilt n Tumble.png",
+        franchise: "Kirby",
+        console: "GBC",
         releaseYear: "2000"
     },
     {
@@ -2235,13 +2256,6 @@ let gameList = [
         releaseYear: "2009"
     },
     {
-        title: "Kirby: Mass Attack",
-        imageUrl: "games/2009/Mass Attack.jpg",
-        franchise: "Kirby",
-        console: "DS",
-        releaseYear: "2009"
-    },
-    {
         title: "Mario & Luigi: Bowser's Inside Story",
         imageUrl: "games/2009/Bowser's Inside Story.jpg",
         franchise: "Super Mario",
@@ -2555,6 +2569,13 @@ let gameList = [
         franchise: "Xenoblade Chronicles",
         console: "Wii",
         releaseYear: "2010"
+    },
+    {
+        title: "Kirby: Mass Attack",
+        imageUrl: "games/2011/Mass Attack.jpg",
+        franchise: "Kirby",
+        console: "DS",
+        releaseYear: "2011"
     },
     {
         title: "Kirby's Return to Dream Land",
@@ -3442,6 +3463,13 @@ let gameList = [
         title: "Hey! Pikmin",
         imageUrl: "games/2017/Hey! Pikmin.jpg",
         franchise: "Pikmin",
+        console: "3DS",
+        releaseYear: "2017"
+    },
+    {
+        title: "Kirby Battle Royale",
+        imageUrl: "games/2017/Kirby Battle Royale.png",
+        franchise: "Kirby",
         console: "3DS",
         releaseYear: "2017"
     },
