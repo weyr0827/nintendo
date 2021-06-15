@@ -2214,6 +2214,13 @@ let gameList = [
         releaseYear: "2009"
     },
     {
+        title: "Excitebike: World Rally",
+        imageUrl: "games/2009/World Rally.jpg",
+        franchise: "Excite",
+        console: "Wii",
+        releaseYear: "2009"
+    },
+    {
         title: "ExciteBots: Trick Racing",
         imageUrl: "games/2009/ExciteBots.jpg",
         franchise: "Excite",
