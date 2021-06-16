@@ -2053,6 +2053,20 @@ let gameList = [
         releaseYear: "2008"
     },
     {
+        title: "Dr. Mario Express",
+        imageUrl: "games/2008/Dr. Mario Express.png",
+        franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2008"
+    },
+    {
+        title: "Dr. Mario Online Rx",
+        imageUrl: "games/2008/Dr. Mario Online Rx.jpg",
+        franchise: "Super Mario",
+        console: "Wii",
+        releaseYear: "2008"
+    },
+    {
         title: "Fire Emblem: Shadow Dragon",
         imageUrl: "games/2008/Shadow Dragon.jpg",
         franchise: "Fire Emblem",
