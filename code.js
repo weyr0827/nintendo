@@ -3250,13 +3250,6 @@ let gameList = [
         releaseYear: "2015"
     },
     {
-        title: "Pokkén Tournament",
-        imageUrl: "games/2015/Pokkén Tournament.jpg",
-        franchise: "Pokémon",
-        console: "Wii U",
-        releaseYear: "2015"
-    },
-    {
         title: "Rhythm Heaven Megamix",
         imageUrl: "games/2015/RH Megamix.jpg",
         franchise: "Rhythm Heaven",
@@ -3401,6 +3394,13 @@ let gameList = [
         imageUrl: "games/2016/Pokemon Sun.jpg",
         franchise: "Pokémon",
         console: "3DS",
+        releaseYear: "2016"
+    },
+    {
+        title: "Pokkén Tournament",
+        imageUrl: "games/2016/Pokkén Tournament.jpg",
+        franchise: "Pokémon",
+        console: "Wii U",
         releaseYear: "2016"
     },
     {
