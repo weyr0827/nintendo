@@ -1990,13 +1990,6 @@ let gameList = [
         releaseYear: "2007"
     },
     {
-        title: "PokéPark Wii: Pikachu's Adventure",
-        imageUrl: "games/2007/PokéPark.jpg",
-        franchise: "Pokémon",
-        console: "Wii",
-        releaseYear: "2007"
-    },
-    {
         title: "Rhythm Heaven Fever",
         imageUrl: "games/2007/RH Fever.jpg",
         franchise: "Rhythm Heaven",
@@ -2393,6 +2386,13 @@ let gameList = [
         imageUrl: "games/2009/Pokemon SoulSilver.png",
         franchise: "Pokémon",
         console: "DS",
+        releaseYear: "2009"
+    },
+    {
+        title: "PokéPark Wii: Pikachu's Adventure",
+        imageUrl: "games/2009/PokéPark.jpg",
+        franchise: "Pokémon",
+        console: "Wii",
         releaseYear: "2009"
     },
     {
