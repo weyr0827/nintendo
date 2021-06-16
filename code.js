@@ -996,6 +996,13 @@ let gameList = [
         releaseYear: "2001"
     },
     {
+        title: "Super Mario World: Super Mario Advance 2",
+        imageUrl: "games/2001/SMA 2.png",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2001"
+    },
+    {
         title: "Super Smash Bros. Melee",
         imageUrl: "games/2001/Super Smash Bros. Melee.png",
         franchise: "Super Smash Bros.",
@@ -1126,13 +1133,6 @@ let gameList = [
         imageUrl: "games/2002/Super Mario Sunshine.jpg",
         franchise: "Super Mario",
         console: "GCN",
-        releaseYear: "2002"
-    },
-    {
-        title: "Super Mario World: Super Mario Advance 2",
-        imageUrl: "games/2002/SMA 2.png",
-        franchise: "Super Mario",
-        console: "GBA",
         releaseYear: "2002"
     },
     {
