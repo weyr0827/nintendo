@@ -1990,13 +1990,6 @@ let gameList = [
         releaseYear: "2007"
     },
     {
-        title: "Rhythm Heaven Fever",
-        imageUrl: "games/2007/RH Fever.jpg",
-        franchise: "Rhythm Heaven",
-        console: "Wii",
-        releaseYear: "2007"
-    },
-    {
         title: "Super Mario Galaxy",
         imageUrl: "games/2007/Super Mario Galaxy.png",
         franchise: "Super Mario",
@@ -2652,6 +2645,13 @@ let gameList = [
         imageUrl: "games/2011/Pushmo.jpg",
         franchise: "Pushmo",
         console: "3DS",
+        releaseYear: "2011"
+    },
+    {
+        title: "Rhythm Heaven Fever",
+        imageUrl: "games/2011/RH Fever.jpg",
+        franchise: "Rhythm Heaven",
+        console: "Wii",
         releaseYear: "2011"
     },
     {
