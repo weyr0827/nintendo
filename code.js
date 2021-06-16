@@ -3895,7 +3895,7 @@ let gameList = [
     },
     {
         title: "Mario Party Superstars",
-        imageUrl: "games/2021/Mario Party Superstars.jpg",
+        imageUrl: "games/2021/Mario Party Superstars.png",
         franchise: "Super Mario",
         console: "Switch",
         releaseYear: "2021"
