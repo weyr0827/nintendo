@@ -276,6 +276,13 @@ let gameList = [
     },
     {
         title: "Yoshi",
+        imageUrl: "games/1991/Yoshi GB.jpg",
+        franchise: "Yoshi",
+        console: "GB",
+        releaseYear: "1991"
+    },
+    {
+        title: "Yoshi",
         imageUrl: "games/1991/Yoshi.jpg",
         franchise: "Yoshi",
         console: "NES",
@@ -327,6 +334,13 @@ let gameList = [
         title: "Wave Race",
         imageUrl: "games/1992/Wave Race.jpg",
         franchise: "Wave Race",
+        console: "GB",
+        releaseYear: "1992"
+    },
+    {
+        title: "Yoshi's Cookie",
+        imageUrl: "games/1992/Yoshi's Cookie GB.png",
+        franchise: "Yoshi",
         console: "GB",
         releaseYear: "1992"
     },
@@ -1143,6 +1157,13 @@ let gameList = [
         releaseYear: "2002"
     },
     {
+        title: "The Legend of Zelda: Ocarina of Time Master Quest",
+        imageUrl: "games/2002/Ocarina of Time Master Quest.jpg",
+        franchise: "The Legend of Zelda",
+        console: "GCN",
+        releaseYear: "2002"
+    },
+    {
         title: "The Legend of Zelda: The Wind Waker",
         imageUrl: "games/2002/The Wind Waker.jpg",
         franchise: "The Legend of Zelda",
@@ -1283,13 +1304,6 @@ let gameList = [
         releaseYear: "2003"
     },
     {
-        title: "The Legend of Zelda: Ocarina of Time Master Quest",
-        imageUrl: "games/2003/Ocarina of Time Master Quest.jpg",
-        franchise: "The Legend of Zelda",
-        console: "GCN",
-        releaseYear: "2003"
-    },
-    {
         title: "The Legendary Stafy 2",
         imageUrl: "games/2003/The Legendary Stafy 2.jpg",
         franchise: "The Legendary Starfy",
@@ -1385,13 +1399,6 @@ let gameList = [
         imageUrl: "games/2004/Mario Party 6.jpg",
         franchise: "Super Mario",
         console: "GCN",
-        releaseYear: "2004"
-    },
-    {
-        title: "Mario Party Advance",
-        imageUrl: "games/2004/Mario Party Advance.jpg",
-        franchise: "Super Mario",
-        console: "GBA",
         releaseYear: "2004"
     },
     {
@@ -1619,6 +1626,13 @@ let gameList = [
         releaseYear: "2005"
     },
     {
+        title: "Mario Party Advance",
+        imageUrl: "games/2005/Mario Party Advance.jpg",
+        franchise: "Super Mario",
+        console: "GBA",
+        releaseYear: "2005"
+    },
+    {
         title: "Mario Superstar Baseball",
         imageUrl: "games/2005/Mario Superstar Baseball.jpg",
         franchise: "Super Mario",
@@ -1720,6 +1734,13 @@ let gameList = [
         title: "Super Princess Peach",
         imageUrl: "games/2005/Super Princess Peach.jpg",
         franchise: "Super Mario",
+        console: "DS",
+        releaseYear: "2005"
+    },
+    {
+        title: "Trace Memory",
+        imageUrl: "games/2005/Trace Memory.jpg",
+        franchise: "Trace Memory",
         console: "DS",
         releaseYear: "2005"
     },
@@ -2438,13 +2459,6 @@ let gameList = [
         releaseYear: "2009"
     },
     {
-        title: "Trace Memory",
-        imageUrl: "games/2009/Trace Memory.jpg",
-        franchise: "Trace Memory",
-        console: "DS",
-        releaseYear: "2009"
-    },
-    {
         title: "WarioWare: D.I.Y.",
         imageUrl: "games/2009/D.I.Y..jpg",
         franchise: "Wario",
@@ -2566,13 +2580,6 @@ let gameList = [
     {
         title: "Wii Party",
         imageUrl: "games/2010/Wii Party.jpg",
-        franchise: "Wii",
-        console: "Wii",
-        releaseYear: "2010"
-    },
-    {
-        title: "Wii Play Motion",
-        imageUrl: "games/2010/Wii Play Motion.jpg",
         franchise: "Wii",
         console: "Wii",
         releaseYear: "2010"
@@ -2707,6 +2714,13 @@ let gameList = [
         title: "The Legend of Zelda: Skyward Sword",
         imageUrl: "games/2011/Skyward Sword.jpg",
         franchise: "The Legend of Zelda",
+        console: "Wii",
+        releaseYear: "2011"
+    },
+    {
+        title: "Wii Play Motion",
+        imageUrl: "games/2011/Wii Play Motion.jpg",
+        franchise: "Wii",
         console: "Wii",
         releaseYear: "2011"
     },
@@ -3663,6 +3677,13 @@ let gameList = [
         releaseYear: "2018"
     },
     {
+        title: "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+        imageUrl: "games/2018/Bowser Jr.'s Journey.jpg",
+        franchise: "Super Mario",
+        console: "3DS",
+        releaseYear: "2018"
+    },
+    {
         title: "Mario Tennis Aces",
         imageUrl: "games/2018/Aces.jpg",
         franchise: "Super Mario",
@@ -3751,13 +3772,6 @@ let gameList = [
         imageUrl: "games/2019/Luigi's Mansion 3.jpg",
         franchise: "Super Mario",
         console: "Switch",
-        releaseYear: "2019"
-    },
-    {
-        title: "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
-        imageUrl: "games/2019/Bowser Jr.'s Journey.jpg",
-        franchise: "Super Mario",
-        console: "3DS",
         releaseYear: "2019"
     },
     {
