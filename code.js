@@ -765,7 +765,7 @@ let gameList = [
         title: "Pokémon Yellow Version",
         imageUrl: "games/1998/Pokemon Yellow.jpg",
         franchise: "Pokémon",
-        console: "N64",
+        console: "GB",
         releaseYear: "1998",
         releaseDate: "September 12, 1998"
     },
