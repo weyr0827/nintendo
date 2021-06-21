@@ -3725,7 +3725,7 @@ let gameList = [
         title: "Art Academy: Home Studio",
         imageUrl: "games/2015/Home Studio.png",
         franchise: "Art Academy",
-        console: "3DS",
+        console: "Wii U",
         releaseYear: "2015",
         releaseDate: "June 25, 2015"
     },
