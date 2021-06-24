@@ -762,6 +762,14 @@ let gameList = [
         releaseDate: "July 14, 1998"
     },
     {
+        title: "Pocket Monsters Stadium",
+        imageUrl: "games/1998/Pokemon Stadium JP.png",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "1998",
+        releaseDate: "August 1, 1998"
+    },
+    {
         title: "Pokémon Yellow Version",
         imageUrl: "games/1998/Pokemon Yellow.jpg",
         franchise: "Pokémon",
@@ -1000,6 +1008,22 @@ let gameList = [
         console: "GBC",
         releaseYear: "2000",
         releaseDate: "August 23, 2000"
+    },
+    {
+        title: "Pokémon Puzzle Challenge",
+        imageUrl: "games/2000/Pokemon Puzzle Challenge.png",
+        franchise: "Pokémon",
+        console: "GBC",
+        releaseYear: "2000",
+        releaseDate: "September 21, 2000"
+    },
+    {
+        title: "Pokémon Puzzle League",
+        imageUrl: "games/2000/Pokemon Puzzle League.jpg",
+        franchise: "Pokémon",
+        console: "N64",
+        releaseYear: "2000",
+        releaseDate: "September 25, 2000"
     },
     {
         title: "Mario Tennis",
@@ -1716,6 +1740,14 @@ let gameList = [
     {
         title: "WarioWare: Touched!",
         imageUrl: "games/2004/WarioWare Touched.jpg",
+        franchise: "Wario",
+        console: "DS",
+        releaseYear: "2004",
+        releaseDate: "December 2, 2004"
+    },
+    {
+        title: "Pokémon Dash",
+        imageUrl: "games/2004/Pokemon Dash.jpg",
         franchise: "Wario",
         console: "DS",
         releaseYear: "2004",
@@ -4504,6 +4536,14 @@ let gameList = [
         console: "Switch",
         releaseYear: "2021",
         releaseDate: "July 16, 2021"
+    },
+    {
+        title: "Pokémon Unite",
+        imageUrl: "games/2021/Pokemon Unite.png",
+        franchise: "Pokémon",
+        console: "Switch",
+        releaseYear: "2021",
+        releaseDate: "July 31, 2021"
     },
     {
         title: "WarioWare: Get It Together!",
