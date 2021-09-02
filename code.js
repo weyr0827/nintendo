@@ -482,6 +482,14 @@ let gameList = [
         releaseDate: "January 21, 1994"
     },
     {
+        title: "Wario's Woods",
+        imageUrl: "games/1994/Wario's Woods.jpg",
+        franchise: "Wario",
+        console: "NES",
+        releaseYear: "1994",
+        releaseDate: "February 19, 1994"
+    },
+    {
         title: "Zoda's Revenge: StarTropics II",
         imageUrl: "games/1994/Zoda's Revenge.jpg",
         franchise: "StarTropics",
@@ -528,6 +536,14 @@ let gameList = [
         console: "SNES",
         releaseYear: "1994",
         releaseDate: "November 18, 1994"
+    },
+    {
+        title: "Wario's Woods",
+        imageUrl: "games/1994/Wario's Woods SNES.png",
+        franchise: "Wario",
+        console: "SNES",
+        releaseYear: "1994",
+        releaseDate: "December 10, 1994"
     },
     {
         title: "Kirby's Avalanche",
@@ -1042,6 +1058,14 @@ let gameList = [
         releaseDate: "November 10, 2000"
     },
     {
+        title: "Donkey Kong Country",
+        imageUrl: "games/2000/DKC GB.jpg",
+        franchise: "Donkey Kong",
+        console: "GBC",
+        releaseYear: "2000",
+        releaseDate: "November 17, 2000"
+    },
+    {
         title: "Sin & Punishment",
         imageUrl: "games/2000/Sin & Punishment.jpg",
         franchise: "Sin & Punishment",
@@ -1394,6 +1418,14 @@ let gameList = [
         releaseDate: "April 25, 2003"
     },
     {
+        title: "Donkey Kong Country",
+        imageUrl: "games/2003/DKC GBA.jpg",
+        franchise: "Donkey Kong",
+        console: "GBA",
+        releaseYear: "2003",
+        releaseDate: "June 6, 2003"
+    },
+    {
         title: "Mother 1 + 2",
         imageUrl: "games/2003/Mother 1 & 2.png",
         franchise: "EarthBound",
@@ -1616,6 +1648,14 @@ let gameList = [
         console: "GBA",
         releaseYear: "2004",
         releaseDate: "May 24, 2004"
+    },
+    {
+        title: "Donkey Kong Country 2",
+        imageUrl: "games/2004/DKC2 GBA.jpg",
+        franchise: "Donkey Kong",
+        console: "GBA",
+        releaseYear: "2004",
+        releaseDate: "June 25, 2004"
     },
     {
         title: "Donkey Konga 2",
@@ -1970,6 +2010,14 @@ let gameList = [
         releaseDate: "October 24, 2005"
     },
     {
+        title: "Donkey Kong Country 3",
+        imageUrl: "games/2005/DKC3 GBA.jpg",
+        franchise: "Donkey Kong",
+        console: "GBA",
+        releaseYear: "2005",
+        releaseDate: "November 4, 2005"
+    },
+    {
         title: "Mario Party 7",
         imageUrl: "games/2005/Mario Party 7.jpg",
         franchise: "Super Mario",
@@ -2296,6 +2344,14 @@ let gameList = [
         console: "DS",
         releaseYear: "2007",
         releaseDate: "June 23, 2007"
+    },
+    {
+        title: "Donkey Kong: Barrel Blast",
+        imageUrl: "games/2007/Barrel Blast.jpg",
+        franchise: "Donkey Kong",
+        console: "Wii",
+        releaseYear: "2007",
+        releaseDate: "June 28, 2007"
     },
     {
         title: "Chibi-Robo: Park Patrol",
