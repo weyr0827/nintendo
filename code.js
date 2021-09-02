@@ -4543,7 +4543,7 @@ let gameList = [
         franchise: "Pokémon",
         console: "Switch",
         releaseYear: "2021",
-        releaseDate: "July 31, 2021"
+        releaseDate: "July 21, 2021"
     },
     {
         title: "WarioWare: Get It Together!",
@@ -4589,6 +4589,14 @@ let gameList = [
         title: "Advance Wars 1 + 2: Re-Boot Camp",
         imageUrl: "games/2021/Reboot Camp.jpg",
         franchise: "Advance Wars",
+        console: "Switch",
+        releaseYear: "2021",
+        releaseDate: "December 3, 2021"
+    },
+    {
+        title: "Big Brain Academy: Brain vs. Brain",
+        imageUrl: "games/2021/Brain Vs Brain.jpg",
+        franchise: "Big Brain Academy",
         console: "Switch",
         releaseYear: "2021",
         releaseDate: "December 3, 2021"
